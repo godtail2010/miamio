@@ -11,7 +11,7 @@ const IMAGES = {
   menu1: "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&q=80&w=600", // Clean beauty skin
   menu2: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&q=80&w=600", // Eyelash curl closeup
   before: "https://images.unsplash.com/photo-1596704017254-9b121068fb31?auto=format&fit=crop&q=80&w=500", // Eye natural
-  after: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&q=80&w=500", // Eye curled
+  after: "https://images.unsplash.com/photo-1582298538104-fc2c3055b089?auto=format&fit=crop&q=80&w=500", // Eye curled
   owner: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=600", // Soft female portrait
   salon1: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800", // Minimal interior
   salon2: "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&q=80&w=800", // Warm neutral room
@@ -457,7 +457,7 @@ export default function Home() {
                   表参道ヒルズの裏手、閑静な住宅街の一角にある落ち着いたヴィンテージマンションの一室です。
                 </p>
                 <a
-                  href="https://maps.google.com"
+                  href="https://maps.app.goo.gl/D2mJF8vQYfVJn7A59"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="border border-brand-accent px-6 py-2.5 text-[10px] font-light tracking-[0.2em] text-brand-accent hover:bg-brand-accent hover:text-white transition-colors"

@@ -135,7 +135,7 @@ export default function AccessPage() {
               プライベートを厳守した穏やかな空間です。表参道の喧騒から離れた隠れ家でおくつろぎください。
             </p>
             <a
-              href="https://maps.google.com"
+              href="https://maps.app.goo.gl/D2mJF8vQYfVJn7A59"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-brand-accent px-8 py-3 text-[10px] font-light tracking-[0.2em] text-brand-accent hover:bg-brand-accent hover:text-white transition-colors"
