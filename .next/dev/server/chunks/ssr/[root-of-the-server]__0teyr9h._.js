@@ -119,7 +119,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$FAQSect
 ;
 // Aesthetic Unsplash Images
 const IMAGES = {
-    hero: "https://images.unsplash.com/photo-1582298538104-fc2c3055b089?auto=format&fit=crop&q=80&w=1200",
+    hero: "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&q=80&w=1200",
     concept: "https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?auto=format&fit=crop&q=80&w=800",
     menu1: "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&q=80&w=600",
     menu2: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&q=80&w=600",

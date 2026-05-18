@@ -114,3 +114,8 @@
 {"timestamp":"00:04:10.670","source":"Server","level":"ERROR","message":"⨯ \"upstream image response failed for\" \"https://images.unsplash.com/photo-1582298538104-fc2c3055b089?auto=format&fit=crop&q=80&w=1200\" 404"}
 {"timestamp":"00:04:12.498","source":"Server","level":"ERROR","message":"⨯ \"upstream image response failed for\" \"https://images.unsplash.com/photo-1582298538104-fc2c3055b089?auto=format&fit=crop&q=80&w=1200\" 404"}
 {"timestamp":"00:04:22.005","source":"Server","level":"ERROR","message":"⨯ \"upstream image response failed for\" \"https://images.unsplash.com/photo-1582298538104-fc2c3055b089?auto=format&fit=crop&q=80&w=500\" 404"}
+{"timestamp":"08:58:58.933","source":"Server","level":"LOG","message":"✓ Compiled in 259ms"}
+{"timestamp":"08:59:00.417","source":"Server","level":"ERROR","message":"⨯ \"upstream image response failed for\" \"https://images.unsplash.com/1556228453-efd6c1ff04f6?auto=format&fit=crop&q=80&w=1200\" 404"}
+{"timestamp":"08:59:24.887","source":"Server","level":"ERROR","message":"⨯ \"upstream image response failed for\" \"https://images.unsplash.com/photo-1582298538104-fc2c3055b089?auto=format&fit=crop&q=80&w=1200\" 404"}
+{"timestamp":"08:59:39.895","source":"Server","level":"ERROR","message":"⨯ \"upstream image response failed for\" \"https://images.unsplash.com/1556228453-efd6c1ff04f6?auto=format&fit=crop&q=80&w=1200\" 404"}
+{"timestamp":"08:59:44.011","source":"Server","level":"ERROR","message":"⨯ \"upstream image response failed for\" \"https://images.unsplash.com/photo-1582298538104-fc2c3055b089?auto=format&fit=crop&q=80&w=1200\" 404"}
