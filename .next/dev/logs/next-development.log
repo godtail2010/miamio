@@ -119,3 +119,5 @@
 {"timestamp":"08:59:24.887","source":"Server","level":"ERROR","message":"⨯ \"upstream image response failed for\" \"https://images.unsplash.com/photo-1582298538104-fc2c3055b089?auto=format&fit=crop&q=80&w=1200\" 404"}
 {"timestamp":"08:59:39.895","source":"Server","level":"ERROR","message":"⨯ \"upstream image response failed for\" \"https://images.unsplash.com/1556228453-efd6c1ff04f6?auto=format&fit=crop&q=80&w=1200\" 404"}
 {"timestamp":"08:59:44.011","source":"Server","level":"ERROR","message":"⨯ \"upstream image response failed for\" \"https://images.unsplash.com/photo-1582298538104-fc2c3055b089?auto=format&fit=crop&q=80&w=1200\" 404"}
+{"timestamp":"09:08:48.822","source":"Server","level":"LOG","message":"✓ Compiled in 159ms"}
+{"timestamp":"09:08:49.901","source":"Browser","level":"WARN","message":"Image with src \"https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&q=80&w=500\" has \"fill\" but is missing \"sizes\" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes"}
