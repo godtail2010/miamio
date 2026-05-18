@@ -170,7 +170,7 @@ export default function MenuPage() {
                   {/* CTA button inside card */}
                   <div className="mt-8 pt-4">
                     <a
-                      href="https://beauty.hotpepper.jp"
+                      href="https://beauty.hotpepper.jp/kr/slnH000631368/coupon/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-full block text-center border border-brand-accent py-3 text-[10px] font-light tracking-[0.25em] text-brand-accent hover:bg-brand-accent hover:text-white transition-colors"

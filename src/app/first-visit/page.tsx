@@ -76,7 +76,7 @@ export default function FirstVisitPage() {
             </p>
             <div className="pt-2">
               <a
-                href="https://beauty.hotpepper.jp"
+                href="https://beauty.hotpepper.jp/kr/slnH000631368/coupon/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-brand-accent text-white px-8 py-3.5 text-[10px] font-light tracking-[0.25em] hover:bg-brand-accent-hover transition-colors"

@@ -97,7 +97,7 @@ export default function AccessPage() {
                 <Clock className="text-brand-accent shrink-0 mt-0.5" size={18} strokeWidth={1.5} />
                 <div>
                   <h4 className="text-[10px] font-medium text-brand-text tracking-widest uppercase mb-1">営業時間</h4>
-                  <p>10:00 - 20:00 (最終受付 18:30)</p>
+                  <p>10:00 - 17:00 (最終受付 16:00)</p>
                   <p>定休日: 不定休</p>
                 </div>
               </div>

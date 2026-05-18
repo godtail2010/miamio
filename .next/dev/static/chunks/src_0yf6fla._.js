@@ -450,7 +450,7 @@ function GalleryPage() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                        href: "https://beauty.hotpepper.jp",
+                        href: "https://beauty.hotpepper.jp/kr/slnH000631368/coupon/",
                         target: "_blank",
                         rel: "noopener noreferrer",
                         className: "inline-block bg-brand-accent text-white px-10 py-4 text-xs font-light tracking-[0.25em] transition-all duration-300 hover:bg-brand-accent-hover shadow-sm",

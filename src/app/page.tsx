@@ -56,7 +56,7 @@ export default function Home() {
           </p>
           <div className="mt-10">
             <a
-              href="https://beauty.hotpepper.jp"
+              href="https://beauty.hotpepper.jp/kr/slnH000631368/coupon/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-white text-brand-text px-10 py-4 text-xs font-light tracking-[0.25em] transition-all duration-300 hover:bg-brand-accent hover:text-white"

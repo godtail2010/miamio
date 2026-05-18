@@ -199,7 +199,7 @@ export default function GalleryPage() {
           気になるデザインが見つかったら、お気軽にご相談ください。
         </p>
         <a
-          href="https://beauty.hotpepper.jp"
+          href="https://beauty.hotpepper.jp/kr/slnH000631368/coupon/"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block bg-brand-accent text-white px-10 py-4 text-xs font-light tracking-[0.25em] transition-all duration-300 hover:bg-brand-accent-hover shadow-sm"
