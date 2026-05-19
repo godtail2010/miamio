@@ -15,12 +15,12 @@ const IMAGES = {
   owner: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=600", // Soft female portrait
   salon1: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800", // Minimal interior
   salon2: "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&q=80&w=800", // Warm neutral room
-  insta1: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&q=80&w=400", // Warm bed linen
-  insta2: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=400", // Natural cosmetic oil
-  insta3: "https://images.unsplash.com/photo-1498804103079-a6351b050096?auto=format&fit=crop&q=80&w=400", // Sunlight hand cup
-  insta4: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&q=80&w=400", // Eyelash tools
-  insta5: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&q=80&w=400", // Dried flower vase
-  insta6: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=400", // Cream jar
+  insta1: "/images/instagram/insta1.jpg",
+  insta2: "/images/instagram/insta2.jpg",
+  insta3: "/images/instagram/insta3.jpg",
+  insta4: "/images/instagram/insta4.jpg",
+  insta5: "/images/instagram/insta5.jpg",
+  insta6: "/images/instagram/insta6.jpg",
 };
 
 export default function Home() {
@@ -392,7 +392,7 @@ export default function Home() {
           <div className="grid grid-cols-2 md:grid-cols-6 gap-3">
             {[IMAGES.insta1, IMAGES.insta2, IMAGES.insta3, IMAGES.insta4, IMAGES.insta5, IMAGES.insta6].map((img, i) => (
               <FadeIn key={i} direction="up" delay={i * 0.05} className="aspect-square relative group overflow-hidden bg-neutral-100">
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="block w-full h-full">
+                <a href="https://www.instagram.com/miamio_eyelash/?hl=ja" target="_blank" rel="noopener noreferrer" className="block w-full h-full">
                   <Image
                     src={img}
                     alt={`Instagram feed item ${i + 1}`}

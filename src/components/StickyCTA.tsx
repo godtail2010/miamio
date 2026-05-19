@@ -13,7 +13,7 @@ export default function StickyCTA() {
       <div className="flex gap-3 max-w-md mx-auto">
         {/* Instagram CTA */}
         <a
-          href="https://instagram.com"
+          href="https://www.instagram.com/miamio_eyelash/?hl=ja"
           target="_blank"
           rel="noopener noreferrer"
           className="flex-1 flex items-center justify-center gap-2 border border-brand-border bg-brand-surface py-3 text-[10px] font-medium tracking-[0.25em] text-brand-text hover:bg-neutral-50 transition-colors rounded-none"
@@ -38,7 +38,7 @@ export default function StickyCTA() {
 
         {/* HotPepper CTA */}
         <a
-          href="https://beauty.hotpepper.jp"
+          href="https://beauty.hotpepper.jp/kr/slnH000631368/coupon/"
           target="_blank"
           rel="noopener noreferrer"
           className="flex-[1.5] flex items-center justify-center gap-2 bg-brand-accent py-3 text-[10px] font-medium tracking-[0.25em] text-white hover:bg-brand-accent-hover transition-colors rounded-none shadow-sm"

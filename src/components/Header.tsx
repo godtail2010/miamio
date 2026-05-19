@@ -54,7 +54,7 @@ export default function Header() {
               );
             })}
             <a
-              href="https://beauty.hotpepper.jp"
+              href="https://beauty.hotpepper.jp/kr/slnH000631368/coupon/"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-brand-accent px-6 py-2.5 text-[10px] font-light tracking-[0.25em] text-brand-accent transition-all duration-300 hover:bg-brand-accent hover:text-white"
@@ -96,7 +96,7 @@ export default function Header() {
                 </Link>
               ))}
               <a
-                href="https://beauty.hotpepper.jp"
+                href="https://beauty.hotpepper.jp/kr/slnH000631368/coupon/"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setIsOpen(false)}

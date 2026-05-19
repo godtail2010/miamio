@@ -67,7 +67,7 @@ export default function Footer() {
             <ul className="space-y-2.5">
               <li>
                 <a
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/miamio_eyelash/?hl=ja"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[10px] font-light tracking-[0.2em] text-brand-muted hover:text-brand-accent transition-colors"
@@ -77,7 +77,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://beauty.hotpepper.jp"
+                  href="https://beauty.hotpepper.jp/kr/slnH000631368/coupon/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[10px] font-light tracking-[0.2em] text-brand-muted hover:text-brand-accent transition-colors"
