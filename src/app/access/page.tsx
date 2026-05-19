@@ -72,7 +72,7 @@ export default function AccessPage() {
                 <MapPin className="text-brand-accent shrink-0 mt-0.5" size={18} strokeWidth={1.5} />
                 <div>
                   <h4 className="text-[10px] font-medium text-brand-text tracking-widest uppercase mb-1">住所</h4>
-                  <p>神奈川県横浜市旭区鶴ケ峰２―６７－６ セイワビル３０２</p>
+                  <p>神奈川県横浜市旭区鶴ケ峰2-67-6 セイワビル302</p>
                   <p className="text-[10px] text-brand-accent mt-1 leading-relaxed">
                     ※ プライベートサロンのため、部屋番号などの詳細住所は、ご予約確定時にHotPepper Beautyからの自動送信メールにてお伝えいたします。
                   </p>
