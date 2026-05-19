@@ -3,7 +3,7 @@ import { MapPin, Clock, Compass, CreditCard, Car } from "lucide-react";
 
 export const metadata = {
   title: "ACCESS | miamio",
-  description: "miamioへのアクセス・店舗情報。表参道駅徒歩5分、原宿駅徒歩12分。営業時間、住所、駐車場情報、お支払い方法を掲載。アクセスマップと道案内もこちらから。",
+  description: "miamioへのアクセス・店舗情報。相鉄線「鶴ヶ峰駅」南口より徒歩2分。営業時間、住所、駐車場情報、お支払い方法を掲載。アクセスマップと道案内もこちらから。",
 };
 
 export default function AccessPage() {
@@ -17,22 +17,22 @@ export default function AccessPage() {
     "telephone": "03-0000-0000",
     "address": {
       "@type": "PostalAddress",
-      "postalCode": "150-0001",
-      "addressRegion": "東京都",
-      "addressLocality": "渋谷区",
-      "streetAddress": "神宮前 0-0-0",
+      "postalCode": "241-0022",
+      "addressRegion": "神奈川県",
+      "addressLocality": "横浜市旭区",
+      "streetAddress": "鶴ケ峰2-67-6 セイワビル302",
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": "35.6662",
-      "longitude": "139.7093",
+      "latitude": "35.4746",
+      "longitude": "139.5488",
     },
     "url": "https://miamio-salon.pages.dev",
     "openingHoursSpecification": {
       "@type": "OpeningHoursSpecification",
       "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
       "opens": "10:00",
-      "closes": "20:00",
+      "closes": "17:00",
     },
   };
 
@@ -53,7 +53,7 @@ export default function AccessPage() {
             アクセス・サロン情報
           </h1>
           <p className="mt-3 text-[10px] font-light tracking-wider text-brand-muted max-w-md mx-auto">
-            表参道・原宿エリアの閑静な一角。完全貸切のプライベート空間でお待ちしております。
+            相鉄線「鶴ヶ峰駅」から徒歩2分。完全貸切のプライベート空間でお待ちしております。
           </p>
         </FadeIn>
       </div>
@@ -72,7 +72,7 @@ export default function AccessPage() {
                 <MapPin className="text-brand-accent shrink-0 mt-0.5" size={18} strokeWidth={1.5} />
                 <div>
                   <h4 className="text-[10px] font-medium text-brand-text tracking-widest uppercase mb-1">住所</h4>
-                  <p>〒150-0001 東京都渋谷区神宮前 0-0-0</p>
+                  <p>神奈川県横浜市旭区鶴ケ峰２―６７－６ セイワビル３０２</p>
                   <p className="text-[10px] text-brand-accent mt-1 leading-relaxed">
                     ※ プライベートサロンのため、部屋番号などの詳細住所は、ご予約確定時にHotPepper Beautyからの自動送信メールにてお伝えいたします。
                   </p>
@@ -84,10 +84,9 @@ export default function AccessPage() {
                 <Compass className="text-brand-accent shrink-0 mt-0.5" size={18} strokeWidth={1.5} />
                 <div>
                   <h4 className="text-[10px] font-medium text-brand-text tracking-widest uppercase mb-1">最寄り駅</h4>
-                  <p>東京メトロ各線「表参道駅」A2出口より徒歩5分</p>
-                  <p>JR山手線「原宿駅」竹下口より徒歩12分</p>
+                  <p>相鉄本線「鶴ヶ峰駅」南口より徒歩2分</p>
                   <p className="text-[10px] text-brand-muted mt-1 leading-relaxed">
-                    表参道ヒルズの裏手、キャットストリートから一本入った閑静な住宅街に位置するヴィンテージマンションになります。
+                    南口改札を出て、駅直結ビル「ココロット鶴ヶ峰」を通り抜けた坂道沿いにあるネイビーの建物の3階になります。
                   </p>
                 </div>
               </div>
@@ -109,7 +108,7 @@ export default function AccessPage() {
                   <h4 className="text-[10px] font-medium text-brand-text tracking-widest uppercase mb-1">駐車場</h4>
                   <p>専用駐車場なし</p>
                   <p className="text-[10px] text-brand-muted mt-1 leading-relaxed">
-                    ※ 恐れ入りますが、お車でお越しの際は近隣のコインパーキングをご利用ください。（徒歩2分圏内に複数ございます。）
+                    ※ 恐れ入りますが、お車でお越しの際は近嶺のコインパーキングをご利用ください。（徒歩2分圏内に複数ございます。）
                   </p>
                 </div>
               </div>
@@ -132,7 +131,7 @@ export default function AccessPage() {
             {/* Minimal aesthetic styled Map Placeholder */}
             <span className="font-serif text-lg font-light tracking-widest text-brand-text mb-2">miamio Salon Map</span>
             <p className="text-[11px] font-light leading-relaxed tracking-wider text-brand-muted max-w-sm mb-6">
-              プライベートを厳守した穏やかな空間です。表参道の喧騒から離れた隠れ家でおくつろぎください。
+              駅前の喧騒から一本入った穏やかなプライベート空間です。静かで落ち着いた隠れ家でおくつろぎください。
             </p>
             <a
               href="https://maps.app.goo.gl/D2mJF8vQYfVJn7A59"
@@ -146,13 +145,13 @@ export default function AccessPage() {
 
           <FadeIn direction="up" className="bg-[#F7F5F2] border border-brand-border/40 p-6 sm:p-8 space-y-3">
             <h3 className="font-serif text-sm font-light tracking-wider text-brand-text">
-              道順のご案内（表参道駅より）
+              道順のご案内（鶴ヶ峰駅より）
             </h3>
             <ol className="text-xs font-light leading-relaxed tracking-wider text-brand-muted space-y-2 list-decimal list-inside pl-1">
-              <li>表参道駅「A2出口」を出て、Apple Store表参道の角を右折します。</li>
-              <li>つきあたり（新潟館ネスパス跡地）を左折し、すぐに右折して静かな路地を進みます。</li>
-              <li>フライングタイガーの通りを越え、さらにキャットストリート方向に直進します。</li>
-              <li>閑静な住宅街に入り、右手にあるブラウンのタイル貼りのマンション（1階がセレクトショップ）の〇〇号室になります。</li>
+              <li>相鉄線「鶴ヶ峰駅」改札口を出て、左側の南口方向に進みます。</li>
+              <li>駅直結の商業ビル「ココロット鶴ヶ峰」の中に入り、そのまま直進して外の広場に出ます。</li>
+              <li>広場の先にある緩やかな坂道を少しだけ上ります。</li>
+              <li>坂道の途中、左手に見える紺色（ネイビー）の建物「セイワビル」の3階（302号室）が当サロンです。※1階は東洋ハウジング様です。</li>
             </ol>
           </FadeIn>
         </div>

@@ -428,17 +428,16 @@ export default function Home() {
                 <div className="space-y-6 text-xs sm:text-sm font-light tracking-wider leading-relaxed text-brand-muted">
                   <div>
                     <h4 className="text-[10px] font-medium text-brand-text tracking-widest uppercase mb-1">住所</h4>
-                    <p>〒150-0001 東京都渋谷区神宮前 0-0-0</p>
+                    <p>〒241-0022 神奈川県横浜市旭区鶴ケ峰２―６７－６ セイワビル３０２</p>
                     <p className="text-[10px] text-brand-accent mt-1">※ プライベートサロンのため、詳細な部屋番号はご予約確定時にお伝えいたします。</p>
                   </div>
                   <div>
                     <h4 className="text-[10px] font-medium text-brand-text tracking-widest uppercase mb-1">最寄り駅</h4>
-                    <p>東京メトロ各線「表参道駅」A2出口より徒歩5分</p>
-                    <p>JR山手線「原宿駅」竹下口より徒歩12分</p>
+                    <p>相鉄本線「鶴ヶ峰駅」南口より徒歩2分</p>
                   </div>
                   <div>
                     <h4 className="text-[10px] font-medium text-brand-text tracking-widest uppercase mb-1">営業時間・定休日</h4>
-                    <p>10:00 - 20:00 (最終受付 18:30)</p>
+                    <p>10:00 - 17:00 (最終受付 16:00)</p>
                     <p>定休日: 不定休</p>
                   </div>
                   <div>
@@ -454,7 +453,7 @@ export default function Home() {
               <div className="absolute inset-0 flex flex-col items-center justify-center p-8 text-center space-y-4">
                 <span className="font-serif text-lg font-light tracking-widest text-brand-text">miamio Salon Map</span>
                 <p className="text-[11px] font-light leading-relaxed tracking-wider text-brand-muted max-w-sm">
-                  表参道ヒルズの裏手、閑静な住宅街の一角にある落ち着いたヴィンテージマンションの一室です。
+                  駅前の喧騒から一本入った緩やかな坂道沿いにある、落ち着いた建物の3階にある一室です。
                 </p>
                 <a
                   href="https://maps.app.goo.gl/D2mJF8vQYfVJn7A59"

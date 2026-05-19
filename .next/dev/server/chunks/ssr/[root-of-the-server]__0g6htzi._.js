@@ -229,21 +229,21 @@ function Footer() {
                                     className: "not-italic text-[10px] font-light tracking-widest leading-relaxed text-brand-muted space-y-2",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            children: "東京都渋谷区神宮前 0-0-0"
+                                            children: "神奈川県横浜市旭区鶴ケ峰２―６７－６ セイワビル３０２"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Footer.tsx",
                                             lineNumber: 55,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            children: "表参道駅 A2出口より徒歩5分"
+                                            children: "相鉄線 鶴ヶ峰駅 南口より徒歩2分"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Footer.tsx",
                                             lineNumber: 56,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            children: "営業時間: 10:00 - 20:00"
+                                            children: "営業時間: 10:00 - 17:00"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/Footer.tsx",
                                             lineNumber: 57,
@@ -431,22 +431,25 @@ const viewport = {
     maximumScale: 1
 };
 const metadata = {
-    title: "miamio | 表参道・原宿のプライベートまつ毛エクステ・ラッシュリフトサロン",
-    description: "表参道駅徒歩5分。ナチュラルで洗練された目元を提案する完全個室・完全予約制のプライベートサロン「miamio」。丁寧なカウンセリングと安心の衛生管理で、初めての方もリラックスしてお過ごしいただけます。",
+    title: "miamio | 横浜・鶴ヶ峰のプライベートまつ毛エクステ・ラッシュリフトサロン",
+    description: "相鉄線・鶴ヶ峰駅徒歩2分。ナチュラルで洗練された目元を提案する完全個室・完全予約制のプライベートサロン「miamio」。丁寧なカウンセリングと安心の衛生管理で、初めての方もリラックスしてお過ごしいただけます。",
     keywords: [
         "miamio",
         "マツエク",
         "まつ毛エクステ",
         "ラッシュリフト",
         "まつ毛パーマ",
-        "表参道",
-        "原宿",
+        "鶴ヶ峰",
+        "二俣川",
+        "横浜",
+        "旭区",
+        "相鉄線",
         "プライベートサロン",
         "完全個室"
     ],
     openGraph: {
-        title: "miamio | 表参道・原宿のプライベートまつ毛エクステ・ラッシュリフトサロン",
-        description: "ナチュラルで洗練された目元を提案する完全予約制プライベートサロン「miamio」。表参道駅徒歩5分。",
+        title: "miamio | 横浜・鶴ヶ峰のプライベートまつ毛エクステ・ラッシュリフトサロン",
+        description: "ナチュラルで洗練された目元を提案する完全予約制プライベートサロン「miamio」。相鉄線・鶴ヶ峰駅徒歩2分。",
         type: "website",
         locale: "ja_JP",
         siteName: "miamio"
@@ -461,7 +464,7 @@ function RootLayout({ children }) {
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Header$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/src/app/layout.tsx",
-                    lineNumber: 65,
+                    lineNumber: 68,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -469,28 +472,28 @@ function RootLayout({ children }) {
                     children: children
                 }, void 0, false, {
                     fileName: "[project]/src/app/layout.tsx",
-                    lineNumber: 66,
+                    lineNumber: 69,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Footer$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/src/app/layout.tsx",
-                    lineNumber: 67,
+                    lineNumber: 70,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$StickyCTA$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/src/app/layout.tsx",
-                    lineNumber: 68,
+                    lineNumber: 71,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/layout.tsx",
-            lineNumber: 64,
+            lineNumber: 67,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/layout.tsx",
-        lineNumber: 60,
+        lineNumber: 63,
         columnNumber: 5
     }, this);
 }

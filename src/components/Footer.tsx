@@ -52,9 +52,9 @@ export default function Footer() {
               Salon Info
             </h4>
             <address className="not-italic text-[10px] font-light tracking-widest leading-relaxed text-brand-muted space-y-2">
-              <p>東京都渋谷区神宮前 0-0-0</p>
-              <p>表参道駅 A2出口より徒歩5分</p>
-              <p>営業時間: 10:00 - 20:00</p>
+              <p>神奈川県横浜市旭区鶴ケ峰２―６７－６ セイワビル３０２</p>
+              <p>相鉄線 鶴ヶ峰駅 南口より徒歩2分</p>
+              <p>営業時間: 10:00 - 17:00</p>
               <p>定休日: 不定休</p>
             </address>
           </div>

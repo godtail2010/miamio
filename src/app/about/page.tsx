@@ -58,7 +58,7 @@ export default function AboutPage() {
               <div className="space-y-6 text-xs sm:text-sm font-light leading-relaxed tracking-wider text-brand-muted">
                 <p>
                   はじめまして。miamioオーナーのMamiです。
-                  都内大手まつ毛サロンで指名売上トップの技術者として数千名のお客様を担当後、一人ひとりのお客様とより深く、静かに向き合いたいという想いから、表参道にこの小さなプライベートサロンを立ち上げました。
+                  都内大手まつ毛サロンで指名売上トップの技術者として数千名のお客様を担当後、一人ひとりのお客様とより深く、静かに向き合いたいという想いから、鶴ヶ峰にこの小さなプライベートサロンを立ち上げました。
                 </p>
                 <p>
                   私が施術において最も大切にしているのは、「溶け込むような自然さ」です。
