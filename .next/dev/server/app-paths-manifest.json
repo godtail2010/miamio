@@ -1,8 +1,4 @@
 {
-  "/about/page": "app/about/page.js",
-  "/access/page": "app/access/page.js",
   "/first-visit/page": "app/first-visit/page.js",
-  "/gallery/page": "app/gallery/page.js",
-  "/menu/page": "app/menu/page.js",
   "/page": "app/page.js"
 }
