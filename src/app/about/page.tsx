@@ -12,7 +12,7 @@ const IMAGES = {
 
 export const metadata = {
   title: "ABOUT | miamio",
-  description: "miamioのサロン紹介。オーナーアイデザイナーMamiの想い、丁寧なカウンセリング方針、徹底した衛生管理、厳選した高品質商材についてご紹介します。",
+  description: "miamioのサロン紹介。オーナーアイデザイナーMioの想い、丁寧なカウンセリング方針、徹底した衛生管理、厳選した高品質商材についてご紹介します。",
 };
 
 export default function AboutPage() {
@@ -40,7 +40,7 @@ export default function AboutPage() {
             <FadeIn direction="up">
               <Image
                 src={IMAGES.owner}
-                alt="Owner Mami Portrait"
+                alt="Owner Mio Portrait"
                 fill
                 className="object-cover grayscale-[15%] border border-brand-border/20"
               />
@@ -57,7 +57,7 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-6 text-xs sm:text-sm font-light leading-relaxed tracking-wider text-brand-muted">
                 <p>
-                  はじめまして。miamioオーナーのMamiです。
+                  はじめまして。miamioオーナーのMioです。
                   都内大手まつ毛サロンで指名売上トップの技術者として数千名のお客様を担当後、一人ひとりのお客様とより深く、静かに向き合いたいという想いから、鶴ヶ峰にこの小さなプライベートサロンを立ち上げました。
                 </p>
                 <p>

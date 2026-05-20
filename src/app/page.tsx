@@ -45,25 +45,25 @@ export default function Home() {
               Private Eyelash Salon
             </span>
             <h1 className="font-serif text-3xl sm:text-5xl font-light tracking-[0.15em] leading-normal sm:leading-relaxed text-white">
-            自然体に、
-            <br className="sm:hidden" />
-            ほんの少しのニュアンスを。
-          </h1>
-          <p className="mt-6 text-xs sm:text-sm font-light tracking-[0.15em] text-white/90 leading-loose max-w-lg mx-auto">
-            まるで自まつ毛がスッと伸びたかのような、
-            <br />
-            あなたの日常に静かに溶け込むアイデザイン。
-          </p>
-          <div className="mt-10">
-            <a
-              href="https://beauty.hotpepper.jp/kr/slnH000631368/coupon/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-white text-brand-text px-10 py-4 text-xs font-light tracking-[0.25em] transition-all duration-300 hover:bg-brand-accent hover:text-white"
-            >
-              HOTPEPPER BEAUTY で予約
-            </a>
-          </div>
+              自然体に、
+              <br className="sm:hidden" />
+              ほんの少しのニュアンスを。
+            </h1>
+            <p className="mt-6 text-xs sm:text-sm font-light tracking-[0.15em] text-white/90 leading-loose max-w-lg mx-auto">
+              まるで自まつ毛がスッと伸びたかのような、
+              <br />
+              あなたの日常に静かに溶け込むアイデザイン。
+            </p>
+            <div className="mt-10">
+              <a
+                href="https://beauty.hotpepper.jp/kr/slnH000631368/coupon/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-white text-brand-text px-10 py-4 text-xs font-light tracking-[0.25em] transition-all duration-300 hover:bg-brand-accent hover:text-white"
+              >
+                HOTPEPPER BEAUTY で予約
+              </a>
+            </div>
           </FadeIn>
         </div>
       </section>
@@ -269,7 +269,7 @@ export default function Home() {
               <FadeIn direction="up" className="h-full">
                 <Image
                   src={IMAGES.owner}
-                  alt="Salon Owner Mami"
+                  alt="Salon Owner Mio"
                   fill
                   className="object-cover grayscale-[15%]"
                 />
@@ -282,7 +282,7 @@ export default function Home() {
                   OWNER MESSAGE
                 </span>
                 <h2 className="font-serif text-2xl sm:text-3xl font-light tracking-[0.15em] text-brand-text mb-2">
-                  Mami
+                  Mio
                 </h2>
                 <span className="text-[10px] font-light tracking-[0.2em] text-brand-muted block mb-6">
                   オーナーアイデザイナー
