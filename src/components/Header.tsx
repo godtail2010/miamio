@@ -25,11 +25,37 @@ export default function Header() {
     <>
       <header className="sticky top-0 z-40 w-full border-b border-brand-border/40 bg-brand-bg/80 backdrop-blur-md">
         <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 sm:px-8 lg:px-12">
-          {/* Logo */}
-          <Link href="/" className="flex items-center">
-            <span className="font-serif text-2xl font-light tracking-[0.2em] text-brand-text">
-              miamio
-            </span>
+          <Link href="/" className="flex items-center gap-2 sm:gap-3 group">
+            {/* Eyelash SVG Icon */}
+            <svg 
+              width="26" 
+              height="26" 
+              viewBox="0 0 24 24" 
+              fill="none" 
+              stroke="currentColor" 
+              strokeWidth="1.2" 
+              strokeLinecap="round" 
+              strokeLinejoin="round" 
+              className="text-brand-accent group-hover:text-brand-text transition-colors mt-1"
+            >
+              {/* Eyelid curve */}
+              <path d="M2 12C2 12 5 7.5 12 7.5C19 7.5 22 12 22 12" />
+              {/* Lashes */}
+              <path d="M12 7.5V4" />
+              <path d="M16 8.5L18.5 5.5" />
+              <path d="M8 8.5L5.5 5.5" />
+              <path d="M19.5 10L22 8" />
+              <path d="M4.5 10L2 8" />
+            </svg>
+            
+            <div className="flex flex-col justify-center pt-1">
+              <span className="text-[8px] sm:text-[9px] font-medium tracking-[0.25em] text-brand-muted uppercase leading-none mb-1 ml-0.5">
+                Eyelash Salon
+              </span>
+              <span className="font-serif text-xl sm:text-2xl font-light tracking-[0.2em] text-brand-text leading-none">
+                miamio
+              </span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
