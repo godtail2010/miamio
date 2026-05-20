@@ -437,7 +437,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h4 className="text-[10px] font-medium text-brand-text tracking-widest uppercase mb-1">営業時間・定休日</h4>
-                    <p>10:00 - 17:00 (最終受付 16:00)</p>
+                    <p>10:00 - 17:30 (最終受付 16:00)</p>
                     <p>定休日: 不定休</p>
                   </div>
                   <div>
@@ -448,21 +448,29 @@ export default function Home() {
               </FadeIn>
             </div>
 
-            <div className="lg:col-span-7 h-[300px] sm:h-[450px] relative bg-brand-bg border border-brand-border/40">
-              {/* Map Placeholder or simple minimal SVG map styling */}
-              <div className="absolute inset-0 flex flex-col items-center justify-center p-8 text-center space-y-4">
-                <span className="font-serif text-lg font-light tracking-widest text-brand-text">miamio Salon Map</span>
-                <p className="text-[11px] font-light leading-relaxed tracking-wider text-brand-muted max-w-sm">
-                  駅前の喧騒から一本入った緩やかな坂道沿いにある、落ち着いた建物の3階にある一室です。
-                </p>
-                <a
-                  href="https://maps.app.goo.gl/D2mJF8vQYfVJn7A59"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="border border-brand-accent px-6 py-2.5 text-[10px] font-light tracking-[0.2em] text-brand-accent hover:bg-brand-accent hover:text-white transition-colors"
-                >
-                  GOOGLE MAP で開く
-                </a>
+            <div className="lg:col-span-7 h-[300px] sm:h-[450px] relative bg-brand-bg border border-brand-border/40 overflow-hidden group">
+              <iframe
+                src="https://maps.google.com/maps?q=%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%E6%A8%AA%E6%B5%9C%E5%B8%82%E6%97%AD%E5%8C%BA%E9%B6%B4%E3%82%B1%E5%B3%B02-67-6&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                className="absolute inset-0 w-full h-full border-0 filter grayscale opacity-40 transition-opacity duration-500 group-hover:opacity-70"
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+              <div className="absolute inset-0 flex flex-col items-center justify-center p-4 sm:p-8 text-center pointer-events-none">
+                <div className="bg-white/85 backdrop-blur-md p-6 sm:p-8 border border-brand-border/50 max-w-sm mx-auto shadow-sm">
+                  <span className="font-serif text-lg font-light tracking-widest text-brand-text block mb-3">miamio Salon Map</span>
+                  <p className="text-[11px] font-light leading-relaxed tracking-wider text-brand-muted mb-6">
+                    駅前の喧騒から一本入った緩やかな坂道沿いにある、落ち着いた建物の3階にある一室です。
+                  </p>
+                  <a
+                    href="https://maps.app.goo.gl/D2mJF8vQYfVJn7A59"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block border border-brand-accent px-6 py-2.5 text-[10px] font-light tracking-[0.2em] text-brand-accent hover:bg-brand-accent hover:text-white transition-colors pointer-events-auto bg-white/50"
+                  >
+                    GOOGLE MAP で開く
+                  </a>
+                </div>
               </div>
             </div>
           </div>
