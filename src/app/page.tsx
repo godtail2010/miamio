@@ -464,7 +464,7 @@ export default function Home() {
                     駅前の喧騒から一本入った緩やかな坂道沿いにある、落ち着いた建物の3階にある一室です。
                   </p>
                   <a
-                    href="https://maps.app.goo.gl/D2mJF8vQYfVJn7A59"
+                    href="https://maps.app.goo.gl/558bqntpeR6gvhda9"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block border border-brand-accent px-6 py-2.5 text-[10px] font-light tracking-[0.2em] text-brand-accent hover:bg-brand-accent hover:text-white transition-colors pointer-events-auto bg-white/50"

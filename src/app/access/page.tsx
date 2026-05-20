@@ -128,7 +128,7 @@ export default function AccessPage() {
         {/* Map column */}
         <div className="lg:col-span-7 flex flex-col gap-6">
           <FadeIn direction="up" className="h-[300px] sm:h-[450px] relative bg-brand-bg border border-brand-border/40 overflow-hidden group">
-            <iframe 
+            <iframe
               src="https://maps.google.com/maps?q=%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%E6%A8%AA%E6%B5%9C%E5%B8%82%E6%97%AD%E5%8C%BA%E9%B6%B4%E3%82%B1%E5%B3%B02-67-6&t=&z=16&ie=UTF8&iwloc=&output=embed"
               className="absolute inset-0 w-full h-full border-0 filter grayscale opacity-40 transition-opacity duration-500 group-hover:opacity-70"
               allowFullScreen
@@ -142,7 +142,7 @@ export default function AccessPage() {
                   駅前の喧騒から一本入った穏やかなプライベート空間です。静かで落ち着いた隠れ家でおくつろぎください。
                 </p>
                 <a
-                  href="https://maps.app.goo.gl/D2mJF8vQYfVJn7A59"
+                  href="https://maps.app.goo.gl/558bqntpeR6gvhda9"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block border border-brand-accent px-8 py-3 text-[10px] font-light tracking-[0.2em] text-brand-accent hover:bg-brand-accent hover:text-white transition-colors pointer-events-auto bg-white/50"
