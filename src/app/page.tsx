@@ -429,7 +429,8 @@ export default function Home() {
                   <div>
                     <h4 className="text-[10px] font-medium text-brand-text tracking-widest uppercase mb-1">住所</h4>
                     <p>〒241-0022<br></br>神奈川県横浜市旭区鶴ケ峰2-67-6 セイワビル302</p>
-                    <p className="text-[10px] text-brand-accent mt-1">※ プライベートサロンのため、詳細な部屋番号はご予約確定時にお伝えいたします。</p>
+                    {/* <p className="text-[10px] text-brand-accent mt-1">※ プライベートサロンのため、詳細な部屋番号はご予約確定時にお伝えいたします。</p> */}
+                    <p className="text-[10px] text-brand-accent mt-1">※ Googleマップでは宝村ビルとなっているビルがセイワビルです</p>
                   </div>
                   <div>
                     <h4 className="text-[10px] font-medium text-brand-text tracking-widest uppercase mb-1">最寄り駅</h4>
