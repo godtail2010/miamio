@@ -230,7 +230,7 @@ function AccessPage() {
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                             className: "text-[10px] text-brand-accent mt-1 leading-relaxed",
-                                                            children: "※ プライベートサロンのため、部屋番号などの詳細住所は、ご予約確定時にHotPepper Beautyからの自動送信メールにてお伝えいたします。"
+                                                            children: "※ Googleマップでは宝村ビルとなっているビルがセイワビルです"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/access/page.tsx",
                                                             lineNumber: 76,
@@ -457,33 +457,60 @@ function AccessPage() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$FadeIn$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                 direction: "up",
-                                className: "h-[300px] sm:h-[450px] relative bg-brand-bg border border-brand-border/40 flex flex-col items-center justify-center p-8 text-center",
+                                className: "h-[300px] sm:h-[450px] relative bg-brand-bg border border-brand-border/40 overflow-hidden group",
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "font-serif text-lg font-light tracking-widest text-brand-text mb-2",
-                                        children: "miamio Salon Map"
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("iframe", {
+                                        src: "https://maps.google.com/maps?q=%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%E6%A8%AA%E6%B5%9C%E5%B8%82%E6%97%AD%E5%8C%BA%E9%B6%B4%E3%82%B1%E5%B3%B02-67-6&t=&z=16&ie=UTF8&iwloc=&output=embed",
+                                        className: "absolute inset-0 w-full h-full border-0 filter grayscale opacity-40 transition-opacity duration-500 group-hover:opacity-70",
+                                        allowFullScreen: true,
+                                        loading: "lazy",
+                                        referrerPolicy: "no-referrer-when-downgrade"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/access/page.tsx",
-                                        lineNumber: 132,
+                                        lineNumber: 131,
                                         columnNumber: 13
                                     }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-[11px] font-light leading-relaxed tracking-wider text-brand-muted max-w-sm mb-6",
-                                        children: "駅前の喧騒から一本入った穏やかなプライベート空間です。静かで落ち着いた隠れ家でおくつろぎください。"
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "absolute inset-0 flex flex-col items-center justify-center p-4 sm:p-8 text-center pointer-events-none",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "bg-white/85 backdrop-blur-md p-6 sm:p-8 border border-brand-border/50 max-w-sm mx-auto shadow-sm",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    className: "font-serif text-lg font-light tracking-widest text-brand-text block mb-3",
+                                                    children: "miamio Salon Map"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/access/page.tsx",
+                                                    lineNumber: 140,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "text-[11px] font-light leading-relaxed tracking-wider text-brand-muted mb-6",
+                                                    children: "駅前の喧騒から一本入った穏やかなプライベート空間です。静かで落ち着いた隠れ家でおくつろぎください。"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/access/page.tsx",
+                                                    lineNumber: 141,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                    href: "https://maps.app.goo.gl/558bqntpeR6gvhda9",
+                                                    target: "_blank",
+                                                    rel: "noopener noreferrer",
+                                                    className: "inline-block border border-brand-accent px-8 py-3 text-[10px] font-light tracking-[0.2em] text-brand-accent hover:bg-brand-accent hover:text-white transition-colors pointer-events-auto bg-white/50",
+                                                    children: "GOOGLE MAP でルートを確認する"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/access/page.tsx",
+                                                    lineNumber: 144,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/app/access/page.tsx",
+                                            lineNumber: 139,
+                                            columnNumber: 15
+                                        }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/access/page.tsx",
-                                        lineNumber: 133,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                        href: "https://maps.app.goo.gl/D2mJF8vQYfVJn7A59",
-                                        target: "_blank",
-                                        rel: "noopener noreferrer",
-                                        className: "border border-brand-accent px-8 py-3 text-[10px] font-light tracking-[0.2em] text-brand-accent hover:bg-brand-accent hover:text-white transition-colors",
-                                        children: "GOOGLE MAP でルートを確認する"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/access/page.tsx",
-                                        lineNumber: 136,
+                                        lineNumber: 138,
                                         columnNumber: 13
                                     }, this)
                                 ]
@@ -501,7 +528,7 @@ function AccessPage() {
                                         children: "道順のご案内（鶴ヶ峰駅より）"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/access/page.tsx",
-                                        lineNumber: 147,
+                                        lineNumber: 157,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ol", {
@@ -511,40 +538,40 @@ function AccessPage() {
                                                 children: "相鉄線「鶴ヶ峰駅」改札口を出て、左側の南口方向に進みます。"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/access/page.tsx",
-                                                lineNumber: 151,
+                                                lineNumber: 161,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 children: "駅直結の商業ビル「ココロット鶴ヶ峰」の中に入り、そのまま直進して外の広場に出ます。"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/access/page.tsx",
-                                                lineNumber: 152,
+                                                lineNumber: 162,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 children: "広場の先にある緩やかな坂道を少しだけ上ります。"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/access/page.tsx",
-                                                lineNumber: 153,
+                                                lineNumber: 163,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                 children: "坂道の途中、左手に見える紺色（ネイビー）の建物「セイワビル」の3階（302号室）が当サロンです。※1階は東洋ハウジング様です。"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/access/page.tsx",
-                                                lineNumber: 154,
+                                                lineNumber: 164,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/access/page.tsx",
-                                        lineNumber: 150,
+                                        lineNumber: 160,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/access/page.tsx",
-                                lineNumber: 146,
+                                lineNumber: 156,
                                 columnNumber: 11
                             }, this)
                         ]

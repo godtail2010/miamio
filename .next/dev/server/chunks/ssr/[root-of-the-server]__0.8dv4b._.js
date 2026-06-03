@@ -74,86 +74,268 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$FadeIn$
 ;
 const MENU_CATEGORIES = [
     {
-        categoryName: "Lash Lift / 次世代まつげパーマ",
+        categoryName: "Lash Lift / まつげパーマ",
         desc: "自まつ毛本来の長さを活かし、瞳に光を呼び込むナチュラルな仕上がり。",
         items: [
             {
-                name: "Natural Lash Lift / パリジェンヌ・ラッシュリフト",
+                name: "【新規様】次世代ラッシュリフト or まつげパーマ",
                 time: "60 min",
-                price: "¥6,600",
+                price: "¥6,000",
                 features: [
-                    "根元から80度上向きに立ち上げるリフトアップ効果",
-                    "まぶた全体の引き上げ効果と、自然な長さの演出",
-                    "ビューラー不要で自まつ毛を痛めずに持続"
+                    "うるつやトリートメント付き◎",
+                    "ロットの種類豊富！デザイン選択可",
+                    "自まつ毛をぱっちり上げたい方に"
                 ],
-                desc: "自まつ毛を一番長く見せることができる次世代デザイン。派手になりすぎず、上品ですっきりとした目元をご希望の方に最適です。"
+                desc: "エクステよりも自然に、自分のまつ毛を根元からしっかり立ち上げます。"
             },
             {
-                name: "Wet Look / 束感ラッシュリフト",
+                name: "ラッシュリフト or まつげパーマ♪うるつやトリートメント付",
                 time: "60 min",
-                price: "¥7,700",
+                price: "¥5,200",
                 features: [
-                    "最新の韓国風・束感デザイン仕上げ",
-                    "トリートメント美容液によるうるおい仕上げ",
-                    "クリアで際立つ存在感のある瞳を演出"
+                    "うるつやトリートメント付き",
+                    "まつ毛パーマでぱっちりお目元に！",
+                    "再来のお客様にもおすすめ"
                 ],
-                desc: "韓国アイドルのようなツヤのある束感を再現したデザイン。瞳をクリアに、パッと華やかに引き立てます。仕上げ用コーティング剤の使い方もお教えします。"
-            }
-        ]
-    },
-    {
-        categoryName: "Eyelash Extension / まつ毛エクステ",
-        desc: "極細の厳選商材を使用し、上品な濃さと長さをプラスするデザインマツエク。",
-        items: [
-            {
-                name: "Clean Wispy Flat Lash (80本)",
-                time: "60 min",
-                price: "¥7,700",
-                features: [
-                    "自まつ毛に優しいフラットラッシュ使用",
-                    "中央が凹んだフラット形状で吸いつくような持続力",
-                    "抜け感を出したウイスピースタイル"
-                ],
-                desc: "「マツエクは濃くなりすぎて苦手」という方におすすめ。細く軽い質感で、まるで地毛が増えたかのようなソフトで上品な仕上がりです。"
+                desc: "定期的なメンテナンスでお得にまつ毛パーマを楽しみたい方に。"
             },
             {
-                name: "Full Soft Volume Extension (120本)",
+                name: "【再来様】上下・次世代ラッシュリフト or まつげパーマ",
                 time: "75 min",
-                price: "¥8,800",
+                price: "¥7,700",
                 features: [
-                    "骨格や眉の形に合わせた黄金比デザイン",
-                    "毛量や毛質に合わせ、長さと太さを細かくミックス",
-                    "しなやかでチクチクしない極上のつけ心地"
+                    "うるつやトリートメント付き",
+                    "長さを最大限に見せるデザイン",
+                    "丸みを活かしたデザインも選択可能"
                 ],
-                desc: "しっかりと目元の印象を引き立てつつ、ナチュラルさを損なわないベストバランス。日常使いから特別なイベント前にも選ばれる人気本数です。"
+                desc: "上下のまつ毛パーマでさらに華やかな目元へ。※下まつげは状態によりお断りする場合があります。"
+            },
+            {
+                name: "下まつ毛パーマ",
+                time: "40 min",
+                price: "¥4,500",
+                features: [
+                    "下まつ毛もハッキリさせたい方に",
+                    "他メニューとセットで1000円オフ",
+                    "中顔面短縮＆小顔効果"
+                ],
+                desc: "下まつ毛を下に向かわせることで、目の縦幅を広げ印象的な目元を作ります。"
             }
         ]
     },
     {
-        categoryName: "Care / オプション・トリートメント",
-        desc: "まつ毛の健康を第一に考え、長持ちと補修を両立させるケアメニュー。",
+        categoryName: "Eyebrow / アイブロウ",
+        desc: "骨格に合わせて美しい眉デザインを作り出し、お顔の第一印象を引き締めます。",
         items: [
             {
-                name: "High Concentrated Keratin Treatment / 高濃度ケラチン補修",
-                time: "10 min",
-                price: "¥1,650",
+                name: "【新規様】アイブロウワックス似合わせ眉",
+                time: "45 min",
+                price: "¥5,000",
                 features: [
-                    "まつ毛の主成分である高濃度ケラチンをダイレクトに補給",
-                    "パーマやエクステのダメージを内部から修復",
-                    "まつ毛にハリとコシを与え、施術の持続力もアップ"
+                    "骨格を見て下描きデザイン",
+                    "はみ出した産毛をワックス処理",
+                    "※3週間眉を伸ばした状態でご来店ください"
                 ],
-                desc: "パーマやエクステとの同時施術がおすすめです。乾燥や傷みが気になるまつ毛を芯からいたわります。"
+                desc: "自分では難しい眉毛のお手入れ。骨格に合わせた黄金比デザインをご提案します。"
             },
             {
-                name: "Deep Lash Foaming Wash / ディープアイシャンプー",
-                time: "10 min",
-                price: "¥1,100",
+                name: "【新規様】アイブロウワックス＋毛量調整で濃さ調整☆",
+                time: "45 min",
+                price: "¥5,400",
                 features: [
-                    "普段の洗顔では落としきれない毛穴の皮脂やメイク汚れを除去",
-                    "まつ毛ダニの予防、肌荒れの防止に効果的",
-                    "施術前の使用でグルーの吸着力が格段に向上"
+                    "濃さが気になる方に",
+                    "抜け感・透明感・ふんわり眉",
+                    "※3週間眉を伸ばした状態でご来店ください"
                 ],
-                desc: "濃密な弾力泡で目元を優しくディープクレンジングします。すっきりとした爽快感が人気です。"
+                desc: "通常のアイブロウワックスに、濃さを軽減させる毛量調整をプラスしたメニューです。"
+            },
+            {
+                name: "【大人気♪】ブロウリフトワックス【眉パーマ＋眉ワックス】",
+                time: "60 min",
+                price: "¥5,900",
+                features: [
+                    "自然な存在感・垢抜け眉",
+                    "ナチュラルに毛流れを動かします",
+                    "下がり眉・細眉さんにおすすめ"
+                ],
+                desc: "次世代眉パーマで毛流れを整え、ワックスで産毛を取り除く当店大人気のセットメニューです。"
+            },
+            {
+                name: "【再来様】アイブロウワックス 美眉毛クーポン",
+                time: "45 min",
+                price: "¥4,900",
+                features: [
+                    "再来のお客様専用クーポン",
+                    "定期的な眉毛のメンテナンスに",
+                    "※毛量調整＋500円にて追加可能"
+                ],
+                desc: "2回目以降も美しい眉毛をキープするためのメンテナンスメニューです。"
+            },
+            {
+                name: "【美眉プラス】アイブロウワックス＋毛量調整",
+                time: "45 min",
+                price: "¥5,400",
+                features: [
+                    "濃さが気になる方に",
+                    "抜け感・透明感・ふんわり眉",
+                    "通常のワックスに毛量調整をプラス"
+                ],
+                desc: "通常のアイブロウワックスに濃さを軽減させる毛量調整をプラス☆ 眉毛の濃さが気になる方にオススメ。※3週間眉を伸ばした状態でご来店ください。"
+            },
+            {
+                name: "【美眉スタイリング】ブロウリフトワックス（眉パーマ＋眉ワックス）",
+                time: "60 min",
+                price: "¥7,000",
+                features: [
+                    "立体的な眉毛を再現",
+                    "毛流れを整え不要な毛を除去",
+                    "自然で美しい仕上がりに"
+                ],
+                desc: "ワックスで不要な毛を除去して形を整え、パーマによって毛を立体的にみせて自然で美しい眉毛を再現することが可能です。※3週間眉を伸ばした状態でご来店ください"
+            }
+        ]
+    },
+    {
+        categoryName: "Eyelash Extension / マツエク（極柔フラットラッシュ）",
+        desc: "非常に柔らかく軽量なフラットラッシュを使用し、自まつ毛に優しく自然な密度感をプラス。",
+        items: [
+            {
+                name: "【極柔フラットラッシュ】60本 (オフ無料)",
+                time: "60 min",
+                price: "¥3,800",
+                features: [
+                    "ご新規様お試しに最適",
+                    "仕上げコート剤無料",
+                    "オフ無料♪"
+                ],
+                desc: "ナチュラルな目元にしたい方にオススメ☆ エクステが初めての方のお試しにも◎"
+            },
+            {
+                name: "【極柔フラットラッシュ】80本 (オフ無料)",
+                time: "60 min",
+                price: "¥4,950",
+                features: [
+                    "ナチュラル仕上げ",
+                    "仕上げコート剤無料",
+                    "ブライダルのお試しにも◎"
+                ],
+                desc: "すっぴんでも浮かない自然な濃さを出したい方にぴったりです。"
+            },
+            {
+                name: "【極柔フラットラッシュ】100本 (オフ無料)",
+                time: "60 min",
+                price: "¥5,500",
+                features: [
+                    "ナチュラルだけど存在感☆",
+                    "仕上げコート剤無料",
+                    "ぱっちりな目元にしたい方に"
+                ],
+                desc: "適度なボリューム感で、マスカラを塗ったような華やかさを演出します。"
+            },
+            {
+                name: "【極柔フラットラッシュ】120本 (オフ無料)",
+                time: "75 min",
+                price: "¥6,100",
+                features: [
+                    "当店大人気メニュー☆",
+                    "仕上げコート剤無料",
+                    "ブライダル・イベント前に♪"
+                ],
+                desc: "一番人気の本数！印象的な目元にしたい方にオススメです。"
+            },
+            {
+                name: "【極柔フラットラッシュ】140本 (オフ無料)",
+                time: "90 min",
+                price: "¥7,000",
+                features: [
+                    "しっかり濃さ出し密度up☆",
+                    "仕上げコート剤無料",
+                    "華やかな目元にしたい方に"
+                ],
+                desc: "アイライン効果をさらに引き立てたい方や、華やかなボリューム感を出したい方に。"
+            },
+            {
+                name: "【再来様】フラットラッシュ 付け足し (3週間以内)",
+                time: "30〜60 min",
+                price: "¥3,060〜",
+                features: [
+                    "40本〜140本まで細かく選べる",
+                    "付け替えの場合は1週間保証付き",
+                    "再来のお客様専用"
+                ],
+                desc: "3週間以内のご来店でご利用いただける付け足しメニューです。40本(¥3,060)/60本(¥4,560)/80本(¥5,940)/100本(¥6,600)/120本(¥7,320)/140本(¥8,400)から選択。"
+            },
+            {
+                name: "【再来様】フラットラッシュ コース",
+                time: "45〜90 min",
+                price: "¥3,570〜",
+                features: [
+                    "仕上げコーティング込み",
+                    "付け替えの場合は1週間保証付き",
+                    "40本〜160本まで選べる"
+                ],
+                desc: "リピーター様専用のフラットラッシュコース。40本(¥3,570)/60本(¥5,320)/80本(¥6,930)/100本(¥7,700)/120本(¥8,540)/140本(¥9,800)/160本(¥11,200)から選択。"
+            }
+        ]
+    },
+    {
+        categoryName: "Care & Others / ケア・その他メニュー",
+        desc: "まつ毛の健康状態を第一に考え、持続力を最大化するオプションメニュー。",
+        items: [
+            {
+                name: "アイシャンプー",
+                time: "10 min",
+                price: "¥1,000",
+                features: [
+                    "濃密な泡で摩擦レス洗浄",
+                    "メイク残りや皮脂汚れをオフ",
+                    "まつ毛ダニ予防・エクステの持続性up"
+                ],
+                desc: "日々の洗顔では落としきれないメイク汚れや皮脂をしっかりと洗い上げます。"
+            },
+            {
+                name: "うるつやトリートメント＋アイシャンプー",
+                time: "15 min",
+                price: "¥1,500",
+                features: [
+                    "トリートメントとシャンプーのセット",
+                    "切れ毛が改善",
+                    "まつ毛エクステ・パーマが長持ち"
+                ],
+                desc: "まつ毛の汚れを落としたらトリートメントでケア♪"
+            },
+            {
+                name: "うるつやケラチントリートメント",
+                time: "10 min",
+                price: "¥500",
+                features: [
+                    "紫外線などのダメージをケア",
+                    "まつ毛に栄養を補給",
+                    "ハリやコシのある健康なまつ毛に"
+                ],
+                desc: "ダメージを受けたまつげに栄養を与えることで、健康なまつげに整えます。"
+            },
+            {
+                name: "【リピーター様】当店・他店エクステオフ",
+                time: "15 min",
+                price: "¥500",
+                features: [
+                    "リピーター様向けのオフ",
+                    "まつげメニューと一緒にご予約ください",
+                    "丁寧なオフで自まつ毛を保護"
+                ],
+                desc: "付け替えオフの場合はまつげメニューと一緒に予約してください。"
+            },
+            {
+                name: "口コミ特典アイシャンプー＆トリートメント☆プレゼント♪",
+                time: "15 min",
+                price: "¥0",
+                features: [
+                    "口コミをご投稿いただいたお客様限定",
+                    "アイシャンプートリートメント",
+                    "次回ご来店時にプレゼント"
+                ],
+                desc: "口コミをご投稿いただいたお客様限定☆アイシャンプートリートメントプレゼント！※口コミの投稿を確認します。確認できない際は無効となります。"
             }
         ]
     }
@@ -176,7 +358,7 @@ function MenuPage() {
                             children: "SALON MENU"
                         }, void 0, false, {
                             fileName: "[project]/src/app/menu/page.tsx",
-                            lineNumber: 101,
+                            lineNumber: 283,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -184,7 +366,7 @@ function MenuPage() {
                             children: "メニュー・料金"
                         }, void 0, false, {
                             fileName: "[project]/src/app/menu/page.tsx",
-                            lineNumber: 104,
+                            lineNumber: 286,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -193,25 +375,25 @@ function MenuPage() {
                                 "すべてのメニューに丁寧なカウンセリングが含まれます。",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                     fileName: "[project]/src/app/menu/page.tsx",
-                                    lineNumber: 108,
+                                    lineNumber: 290,
                                     columnNumber: 39
                                 }, this),
                                 "当日の状態に合わせた調整も可能です。"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/menu/page.tsx",
-                            lineNumber: 107,
+                            lineNumber: 289,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/menu/page.tsx",
-                    lineNumber: 100,
+                    lineNumber: 282,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/menu/page.tsx",
-                lineNumber: 99,
+                lineNumber: 281,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -229,7 +411,7 @@ function MenuPage() {
                                             children: category.categoryName
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/menu/page.tsx",
-                                            lineNumber: 120,
+                                            lineNumber: 302,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -237,18 +419,18 @@ function MenuPage() {
                                             children: category.desc
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/menu/page.tsx",
-                                            lineNumber: 123,
+                                            lineNumber: 305,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/menu/page.tsx",
-                                    lineNumber: 119,
+                                    lineNumber: 301,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/menu/page.tsx",
-                                lineNumber: 118,
+                                lineNumber: 300,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -269,7 +451,7 @@ function MenuPage() {
                                                                 children: item.name
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/menu/page.tsx",
-                                                                lineNumber: 141,
+                                                                lineNumber: 323,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -280,7 +462,7 @@ function MenuPage() {
                                                                         children: item.price
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/menu/page.tsx",
-                                                                        lineNumber: 145,
+                                                                        lineNumber: 327,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -288,19 +470,19 @@ function MenuPage() {
                                                                         children: item.time
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/menu/page.tsx",
-                                                                        lineNumber: 148,
+                                                                        lineNumber: 330,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/menu/page.tsx",
-                                                                lineNumber: 144,
+                                                                lineNumber: 326,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/menu/page.tsx",
-                                                        lineNumber: 140,
+                                                        lineNumber: 322,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -308,7 +490,7 @@ function MenuPage() {
                                                         children: item.desc
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/menu/page.tsx",
-                                                        lineNumber: 155,
+                                                        lineNumber: 337,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -321,31 +503,31 @@ function MenuPage() {
                                                                         children: "•"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/menu/page.tsx",
-                                                                        lineNumber: 163,
+                                                                        lineNumber: 345,
                                                                         columnNumber: 27
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                         children: feat
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/menu/page.tsx",
-                                                                        lineNumber: 164,
+                                                                        lineNumber: 346,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 ]
                                                             }, i, true, {
                                                                 fileName: "[project]/src/app/menu/page.tsx",
-                                                                lineNumber: 162,
+                                                                lineNumber: 344,
                                                                 columnNumber: 25
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/menu/page.tsx",
-                                                        lineNumber: 160,
+                                                        lineNumber: 342,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/menu/page.tsx",
-                                                lineNumber: 138,
+                                                lineNumber: 320,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -358,34 +540,34 @@ function MenuPage() {
                                                     children: "HOTPEPPER でこのメニューを予約"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/menu/page.tsx",
-                                                    lineNumber: 172,
+                                                    lineNumber: 354,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/menu/page.tsx",
-                                                lineNumber: 171,
+                                                lineNumber: 353,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, item.name, true, {
                                         fileName: "[project]/src/app/menu/page.tsx",
-                                        lineNumber: 132,
+                                        lineNumber: 314,
                                         columnNumber: 17
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/app/menu/page.tsx",
-                                lineNumber: 130,
+                                lineNumber: 312,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, category.categoryName, true, {
                         fileName: "[project]/src/app/menu/page.tsx",
-                        lineNumber: 116,
+                        lineNumber: 298,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/app/menu/page.tsx",
-                lineNumber: 114,
+                lineNumber: 296,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$FadeIn$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -397,7 +579,7 @@ function MenuPage() {
                         children: "施術に関するご案内"
                     }, void 0, false, {
                         fileName: "[project]/src/app/menu/page.tsx",
-                        lineNumber: 190,
+                        lineNumber: 372,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -407,49 +589,49 @@ function MenuPage() {
                                 children: "・すべての表示料金は税込価格です。"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/menu/page.tsx",
-                                lineNumber: 194,
+                                lineNumber: 376,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                 fileName: "[project]/src/app/menu/page.tsx",
-                                lineNumber: 194,
+                                lineNumber: 376,
                                 columnNumber: 41
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 children: "・当サロンは完全予約制の女性専用プライベートサロンです。"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/menu/page.tsx",
-                                lineNumber: 195,
+                                lineNumber: 377,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                 fileName: "[project]/src/app/menu/page.tsx",
-                                lineNumber: 195,
+                                lineNumber: 377,
                                 columnNumber: 52
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 children: "・初めてお越しいただく際は、カウンセリングシートのご記入がございますので、予約時間の10分前を目安にご来店ください。"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/menu/page.tsx",
-                                lineNumber: 196,
+                                lineNumber: 378,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/menu/page.tsx",
-                        lineNumber: 193,
+                        lineNumber: 375,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/menu/page.tsx",
-                lineNumber: 189,
+                lineNumber: 371,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/menu/page.tsx",
-        lineNumber: 97,
+        lineNumber: 279,
         columnNumber: 5
     }, this);
 }
