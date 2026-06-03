@@ -3,6 +3,7 @@ import Link from "next/link";
 import FadeIn from "@/components/FadeIn";
 import { ArrowRight, Sparkles, Shield, Heart } from "lucide-react";
 import FAQSection from "@/components/FAQSection";
+import ReviewsSection from "@/components/ReviewsSection";
 
 // Aesthetic Unsplash Images
 const IMAGES = {
@@ -260,6 +261,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Reviews Section */}
+      <ReviewsSection />
 
       {/* 5. Owner Message Section */}
       <section className="py-24 px-6 sm:py-32 sm:px-12 bg-white">
