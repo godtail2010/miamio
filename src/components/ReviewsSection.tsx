@@ -32,6 +32,7 @@ export default function ReviewsSection() {
     "@context": "https://schema.org",
     "@type": "BeautySalon",
     "name": "miamio (ミアミオ)",
+    "alternateName": "mia mio",
     "url": SITE_URL,
     "address": {
       "@type": "PostalAddress",

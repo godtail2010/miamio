@@ -16,6 +16,7 @@ export default function AccessPage() {
     "@context": "https://schema.org",
     "@type": "BeautySalon",
     "name": "miamio (ミアミオ)",
+    "alternateName": "mia mio",
     "image": `${SITE_URL}/opengraph-image`,
     "priceRange": "¥3,800 - ¥11,200",
     "address": {
@@ -121,7 +122,7 @@ export default function AccessPage() {
                 <CreditCard className="text-brand-accent shrink-0 mt-0.5" size={18} strokeWidth={1.5} />
                 <div>
                   <h4 className="text-[10px] font-medium text-brand-text tracking-widest uppercase mb-1">お支払い方法</h4>
-                  <p>現金 / クレジットカード (VISA, MasterCard, American Express, JCB) / 電子マネー (QUICPay, iD) / QRコード決済 (PayPay)</p>
+                  <p>現金 / クレジットカード (VISA, MasterCard, JCB, American Express, Diners Club, Discover) / 電子マネー (QUICPay, iD) / QRコード決済 (PayPay)</p>
                 </div>
               </div>
             </div>

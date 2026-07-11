@@ -86,7 +86,7 @@ export default function Home() {
                 <div className="space-y-6 text-xs sm:text-sm font-light leading-relaxed tracking-wider text-brand-muted">
                   <p>
                     せわしない日常から少しだけ離れて、自然光がやさしく差し込むプライベートな空間へ。
-                    miamio（ミアミオ）は、完全個室・完全予約制の小さなお店です。
+                    miamio（ミアミオ）は、完全個室・完全予約制、お迎えするのは常におひとりだけの「1ゲスト制」の小さなお店です。
                   </p>
                   <p>
                     「高級すぎて緊張する空間」でもなく、「生活感にあふれた場所」でもない。
@@ -289,7 +289,7 @@ export default function Home() {
                   Mio
                 </h2>
                 <span className="text-[10px] font-light tracking-[0.2em] text-brand-muted block mb-6">
-                  オーナーアイデザイナー
+                  オーナーアイデザイナー（歴10年）
                 </span>
 
                 <div className="space-y-6 text-xs sm:text-sm font-light leading-relaxed tracking-wider text-brand-muted">
@@ -470,12 +470,12 @@ export default function Home() {
                   </div>
                   <div>
                     <h4 className="text-[10px] font-medium text-brand-text tracking-widest uppercase mb-1">営業時間・定休日</h4>
-                    <p>10:00 - 17:30 (最終受付 16:00)</p>
+                    <p>10:00 - 17:00 (最終受付 16:00)</p>
                     <p>定休日: 不定休</p>
                   </div>
                   <div>
                     <h4 className="text-[10px] font-medium text-brand-text tracking-widest uppercase mb-1">お支払い方法</h4>
-                    <p>現金 / VISA / MasterCard / American Express / JCB / QUICPay / PayPay</p>
+                    <p>現金 / VISA / MasterCard / JCB / American Express / Diners Club / Discover / QUICPay / PayPay</p>
                   </div>
                 </div>
               </FadeIn>

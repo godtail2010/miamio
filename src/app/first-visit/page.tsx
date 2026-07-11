@@ -71,7 +71,7 @@ export default function FirstVisitPage() {
               ご予約方法について
             </h2>
             <p className="text-xs sm:text-sm font-light leading-relaxed tracking-wider text-brand-muted">
-              当サロンは、お客様一人ひとりに十分な時間を確保し丁寧におもてなしをするため、<b>完全予約制・完全貸切</b>とさせていただいております。
+              当サロンは、お客様一人ひとりに十分な時間を確保し丁寧におもてなしをするため、<b>完全予約制・完全貸切（1ゲスト制）</b>とさせていただいております。
               お電話やメールでの受付は行っておらず、予約管理の手間を排して施術に集中するため、すべて<b>HotPepper Beautyからのオンライン予約</b>に一本化しております。
             </p>
             <p className="text-xs font-light leading-relaxed tracking-wider text-brand-muted">

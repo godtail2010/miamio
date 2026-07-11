@@ -189,6 +189,28 @@ const MENU_CATEGORIES = [
         desc: "アイライン効果をさらに引き立てたい方や、華やかなボリューム感を出したい方に。",
       },
       {
+        name: "下まつげエクステ 20本〜40本",
+        time: "",
+        price: "¥2,300〜",
+        features: [
+          "ノーメイクでもアイラインを引いたような目元に",
+          "目の縦幅を強調してぱっちりと",
+          "上まつげメニューとの組み合わせ◎",
+        ],
+        desc: "下まつげにもエクステをプラスして、より印象的な目元へ。20本(¥2,300)/30本(¥3,300)/40本(¥4,300)から選択。",
+      },
+      {
+        name: "アップワードラッシュ（オプション）",
+        time: "",
+        price: "¥1,500〜",
+        features: [
+          "自まつ毛を上向きに立ち上げてから装着",
+          "下がりまつ毛さんにおすすめ",
+          "エクステの角度が揃い華やかな仕上がりに",
+        ],
+        desc: "特殊な技術で自まつ毛を上向きに整えてからエクステを装着するオプションメニューです。オフ無し(¥1,500)/オフ有り(¥2,000)。",
+      },
+      {
         name: "【再来様】フラットラッシュ 付け足し (3週間以内)",
         time: "30〜60 min",
         price: "¥3,060〜",
@@ -260,7 +282,18 @@ const MENU_CATEGORIES = [
           "まつげメニューと一緒にご予約ください",
           "丁寧なオフで自まつ毛を保護",
         ],
-        desc: "付け替えオフの場合はまつげメニューと一緒に予約してください。",
+        desc: "付け替えオフの場合はまつげメニューと一緒に予約してください。オフのみをご希望の場合は¥2,000、ご新規様の付け替えオフは無料です。",
+      },
+      {
+        name: "まつ毛パーマ落とし",
+        time: "",
+        price: "¥4,500",
+        features: [
+          "かかりすぎたカールをリセット",
+          "他メニューとセットで¥1,000",
+          "自まつ毛への負担を抑えて丁寧にオフ",
+        ],
+        desc: "まつげパーマのカールを落として自然な状態に戻します。パーマのかけ直し前のリセットにもおすすめです。",
       },
       {
         name: "口コミ特典アイシャンプー＆トリートメント☆プレゼント♪",
@@ -360,9 +393,11 @@ export default function MenuPage() {
                         <span className="text-sm font-medium tracking-wider text-brand-accent block">
                           {item.price}
                         </span>
-                        <span className="text-[9px] font-light text-brand-muted tracking-widest block">
-                          {item.time}
-                        </span>
+                        {item.time && (
+                          <span className="text-[9px] font-light text-brand-muted tracking-widest block">
+                            {item.time}
+                          </span>
+                        )}
                       </div>
                     </div>
 
