@@ -485,29 +485,45 @@ export default function Home() {
               </FadeIn>
             </div>
 
-            <div className="lg:col-span-7 h-[300px] sm:h-[450px] relative bg-brand-bg border border-brand-border/40 overflow-hidden group">
-              <iframe
-                src="https://maps.google.com/maps?q=%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%E6%A8%AA%E6%B5%9C%E5%B8%82%E6%97%AD%E5%8C%BA%E9%B6%B4%E3%82%B1%E5%B3%B02-67-6&t=&z=16&ie=UTF8&iwloc=&output=embed"
-                className="absolute inset-0 w-full h-full border-0 filter grayscale opacity-40 transition-opacity duration-500 group-hover:opacity-70"
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              />
-              <div className="absolute inset-0 flex flex-col items-center justify-center p-4 sm:p-8 text-center pointer-events-none">
-                <div className="bg-white/85 backdrop-blur-md p-6 sm:p-8 border border-brand-border/50 max-w-sm mx-auto shadow-sm">
-                  <span className="font-serif text-lg font-light tracking-widest text-brand-text block mb-3">miamio Salon Map</span>
-                  <p className="text-xs font-light leading-relaxed tracking-wider text-brand-muted mb-6">
-                    駅前の喧騒から一本入った緩やかな坂道沿いにある、落ち着いた建物の3階にある一室です。
+            <div className="lg:col-span-7 flex flex-col gap-4">
+              <div className="relative h-[320px] sm:h-[450px] bg-brand-bg border border-brand-border/40 overflow-hidden group">
+                <iframe
+                  src="https://maps.google.com/maps?q=mia+mio+%E3%81%BE%E3%81%A4%E3%81%92%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%86+%E9%B6%B4%E3%83%B6%E5%B3%B0&ll=35.4739215,139.5499484&z=17&ie=UTF8&output=embed"
+                  title="miamio 周辺地図（神奈川県横浜市旭区鶴ケ峰2-67-6）"
+                  className="absolute inset-0 w-full h-full border-0 grayscale-[20%] group-hover:grayscale-0 transition-[filter] duration-500"
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                />
+                {/* PC: 地図を隠さないコンパクトなカード */}
+                <div className="hidden sm:block absolute bottom-4 left-4 bg-white/90 backdrop-blur-md px-5 py-4 border border-brand-border/50 shadow-sm max-w-[280px]">
+                  <span className="font-serif text-sm font-light tracking-widest text-brand-text block mb-2">miamio Salon Map</span>
+                  <p className="text-[10px] font-light leading-relaxed tracking-wider text-brand-muted mb-3">
+                    駅前の喧騒から一本入った緩やかな坂道沿い、落ち着いた建物の3階にある一室です。
                   </p>
                   <a
                     href="https://maps.app.goo.gl/558bqntpeR6gvhda9"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block border border-brand-accent px-6 py-2.5 text-[10px] font-light tracking-[0.2em] text-brand-accent hover:bg-brand-accent hover:text-white transition-colors pointer-events-auto bg-white/50"
+                    className="inline-block border border-brand-accent px-4 py-2 text-[10px] font-light tracking-[0.2em] text-brand-accent hover:bg-brand-accent hover:text-white transition-colors"
                   >
                     GOOGLE MAP で開く
                   </a>
                 </div>
+              </div>
+              {/* スマホ: 地図の下に案内とボタン */}
+              <div className="sm:hidden space-y-3">
+                <p className="text-[11px] font-light leading-relaxed tracking-wider text-brand-muted">
+                  駅前の喧騒から一本入った緩やかな坂道沿い、落ち着いた建物の3階にある一室です。
+                </p>
+                <a
+                  href="https://maps.app.goo.gl/558bqntpeR6gvhda9"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full text-center border border-brand-accent py-3 text-[10px] font-light tracking-[0.2em] text-brand-accent hover:bg-brand-accent hover:text-white transition-colors"
+                >
+                  GOOGLE MAP で開く
+                </a>
               </div>
             </div>
           </div>
