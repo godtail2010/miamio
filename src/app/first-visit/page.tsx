@@ -4,6 +4,9 @@ import { Calendar, HelpCircle, AlertCircle } from "lucide-react";
 export const metadata = {
   title: "FIRST VISIT | miamio",
   description: "初めての方へ。miamioのオンライン・ホットペッパー予約方法、ご来店から施術・お帰りまでの流れ、当日の注意事項やよくある不安について分かりやすくご案内します。",
+  alternates: {
+    canonical: "/first-visit",
+  },
 };
 
 const VISITING_STEPS = [
@@ -53,7 +56,7 @@ export default function FirstVisitPage() {
           <h1 className="font-serif text-3xl sm:text-4xl font-light tracking-[0.15em] text-brand-text">
             初めての方へ
           </h1>
-          <p className="mt-3 text-[10px] font-light tracking-wider text-brand-muted max-w-md mx-auto">
+          <p className="mt-3 text-xs font-light tracking-wider text-brand-muted max-w-md mx-auto">
             ご来店からお帰りまでの流れ、よくある不安にお答えします。<br />初めてのマツエクやラッシュリフトも、安心してお任せください。
           </p>
         </FadeIn>
@@ -130,7 +133,7 @@ export default function FirstVisitPage() {
               <h2 className="font-serif text-lg font-light tracking-wider text-brand-text mb-2">
                 ご来店時の注意事項
               </h2>
-              <p className="text-[11px] font-light leading-relaxed tracking-wider text-brand-muted">
+              <p className="text-xs font-light leading-relaxed tracking-wider text-brand-muted">
                 施術の効果を最大限に発揮し、安全に進めるため、以下の注意事項を事前にご確認ください。
               </p>
             </div>
@@ -182,7 +185,7 @@ export default function FirstVisitPage() {
                   {item.q}
                 </h3>
               </div>
-              <p className="text-[11px] sm:text-xs font-light leading-relaxed tracking-wider text-brand-muted pl-7">
+              <p className="text-xs sm:text-[13px] font-light leading-relaxed tracking-wider text-brand-muted pl-7">
                 {item.a}
               </p>
             </FadeIn>

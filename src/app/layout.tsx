@@ -3,6 +3,7 @@ import { Noto_Sans_JP, Cormorant_Garamond } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import StickyCTA from "@/components/StickyCTA";
+import { SITE_URL } from "@/lib/site";
 import "./globals.css";
 
 const notoSansJp = Noto_Sans_JP({
@@ -23,10 +24,13 @@ const cormorantGaramond = Cormorant_Garamond({
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  maximumScale: 1,
 };
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
+  alternates: {
+    canonical: "/",
+  },
   title: "miamio | 横浜・鶴ヶ峰のプライベートまつ毛エクステ・ラッシュリフトサロン",
   description:
     "相鉄線・鶴ヶ峰駅徒歩2分。ナチュラルで洗練された目元を提案する完全個室・完全予約制のプライベートサロン「miamio」。丁寧なカウンセリングと安心の衛生管理で、初めての方もリラックスしてお過ごしいただけます。",
@@ -51,6 +55,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "ja_JP",
     siteName: "miamio",
+    url: "/",
   },
 };
 

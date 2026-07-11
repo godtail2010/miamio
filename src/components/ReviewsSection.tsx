@@ -2,6 +2,7 @@
 
 import { Star, Quote, ExternalLink } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
+import { SITE_URL } from "@/lib/site";
 
 const REVIEWS = [
   {
@@ -25,8 +26,34 @@ const REVIEWS = [
 ];
 
 export default function ReviewsSection() {
+  // 総合評価の構造化データ (JSON-LD)
+  // ※ 評価値は HotPepper Beauty 掲載の口コミデータに基づく。更新時は表示側の数値と揃えること
+  const ratingSchema = {
+    "@context": "https://schema.org",
+    "@type": "BeautySalon",
+    "name": "miamio (ミアミオ)",
+    "url": SITE_URL,
+    "address": {
+      "@type": "PostalAddress",
+      "postalCode": "241-0022",
+      "addressRegion": "神奈川県",
+      "addressLocality": "横浜市旭区",
+      "streetAddress": "鶴ケ峰2-67-6 セイワビル302",
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "bestRating": "5",
+      "ratingCount": "72",
+    },
+  };
+
   return (
     <section className="py-24 px-6 sm:py-32 sm:px-12 bg-brand-bg border-t border-brand-border/40">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(ratingSchema) }}
+      />
       <div className="mx-auto max-w-5xl">
         {/* Section Header */}
         <div className="text-center mb-16">
@@ -37,7 +64,7 @@ export default function ReviewsSection() {
             <h2 className="font-serif text-2xl sm:text-3xl font-light tracking-[0.15em] text-brand-text mb-4">
               お客様の声
             </h2>
-            <p className="text-[11px] font-light tracking-wider text-brand-muted max-w-md mx-auto leading-relaxed">
+            <p className="text-xs font-light tracking-wider text-brand-muted max-w-md mx-auto leading-relaxed">
               ホットペッパービューティーにお寄せいただいた、お客様からの温かいメッセージの一部をご紹介します。
             </p>
           </FadeIn>
@@ -51,7 +78,7 @@ export default function ReviewsSection() {
             </span>
             <div className="flex items-center justify-center gap-1.5 my-2">
               <span className="font-serif text-3xl font-light tracking-tight text-brand-text">
-                4.9
+                5.0
               </span>
               <span className="text-[11px] text-brand-muted mt-2">/ 5.0</span>
             </div>
@@ -61,7 +88,7 @@ export default function ReviewsSection() {
               ))}
             </div>
             <p className="text-[10px] text-brand-muted font-light tracking-wider">
-              ※ 2026年6月時点の評価データより
+              ※ 2026年7月時点・口コミ72件の評価データより
             </p>
           </FadeIn>
         </div>
@@ -95,7 +122,7 @@ export default function ReviewsSection() {
               </div>
 
               {/* Review Text */}
-              <p className="text-[11px] font-light leading-relaxed tracking-wider text-brand-text flex-grow">
+              <p className="text-xs font-light leading-relaxed tracking-wider text-brand-text flex-grow">
                 {review.text}
               </p>
             </FadeIn>

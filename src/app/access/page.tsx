@@ -1,9 +1,13 @@
 import FadeIn from "@/components/FadeIn";
 import { MapPin, Clock, Compass, CreditCard, Car } from "lucide-react";
+import { SITE_URL } from "@/lib/site";
 
 export const metadata = {
   title: "ACCESS | miamio",
   description: "miamioへのアクセス・店舗情報。相鉄線「鶴ヶ峰駅」南口より徒歩2分。営業時間、住所、駐車場情報、お支払い方法を掲載。アクセスマップと道案内もこちらから。",
+  alternates: {
+    canonical: "/access",
+  },
 };
 
 export default function AccessPage() {
@@ -12,9 +16,8 @@ export default function AccessPage() {
     "@context": "https://schema.org",
     "@type": "BeautySalon",
     "name": "miamio (ミアミオ)",
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=800",
-    "priceRange": "¥6,000 - ¥10,000",
-    "telephone": "03-0000-0000",
+    "image": `${SITE_URL}/opengraph-image`,
+    "priceRange": "¥3,800 - ¥11,200",
     "address": {
       "@type": "PostalAddress",
       "postalCode": "241-0022",
@@ -27,7 +30,7 @@ export default function AccessPage() {
       "latitude": "35.4746",
       "longitude": "139.5488",
     },
-    "url": "https://miamio-salon.pages.dev",
+    "url": SITE_URL,
     "openingHoursSpecification": {
       "@type": "OpeningHoursSpecification",
       "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],

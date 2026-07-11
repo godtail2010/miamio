@@ -1,3 +1,0 @@
-module.exports=[64939,a=>{"use strict";var b=a.i(87924),c=a.i(46271);a.s(["default",0,function({children:a,delay:d=0,direction:e="up",duration:f=.8,className:g=""}){return(0,b.jsx)(c.motion.div,{initial:{opacity:0,...{up:{y:30,x:0},down:{y:-30,x:0},left:{y:0,x:30},right:{y:0,x:-30},none:{y:0,x:0}}[e]},whileInView:{opacity:1,x:0,y:0},viewport:{once:!0,margin:"-100px"},transition:{duration:f,delay:d,ease:[.215,.61,.355,1]},className:g,children:a})}])},33354,(a,b,c)=>{"use strict";c._=function(a){return a&&a.__esModule?a:{default:a}}}];
-
-//# sourceMappingURL=_0cg5hlr._.js.map

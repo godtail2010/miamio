@@ -13,6 +13,9 @@ const IMAGES = {
 export const metadata = {
   title: "ABOUT | miamio",
   description: "miamioのサロン紹介。オーナーアイデザイナーMioの想い、丁寧なカウンセリング方針、徹底した衛生管理、厳選した高品質商材についてご紹介します。",
+  alternates: {
+    canonical: "/about",
+  },
 };
 
 export default function AboutPage() {

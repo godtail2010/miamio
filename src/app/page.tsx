@@ -168,7 +168,7 @@ export default function Home() {
                     <span className="w-1 h-1 bg-brand-accent rounded-full" />
                     <span>{menu.time}</span>
                   </div>
-                  <p className="text-[11px] font-light leading-relaxed tracking-wider text-brand-muted flex-grow mb-6">
+                  <p className="text-xs font-light leading-relaxed tracking-wider text-brand-muted flex-grow mb-6">
                     {menu.desc}
                   </p>
                 </div>
@@ -201,7 +201,7 @@ export default function Home() {
               <h2 className="font-serif text-2xl sm:text-3xl font-light tracking-[0.15em] text-brand-text">
                 Before / After
               </h2>
-              <p className="mt-3 text-[10px] font-light tracking-wider text-brand-muted">
+              <p className="mt-3 text-[11px] font-light tracking-wider text-brand-muted">
                 瞳が引き出す、本来のニュアンス
               </p>
             </FadeIn>
@@ -243,7 +243,7 @@ export default function Home() {
                 <h3 className="font-serif text-xl font-light tracking-wider text-brand-text">
                   自然な立ち上がりで、<br />クリアな印象の目元へ
                 </h3>
-                <p className="text-[11px] font-light leading-relaxed tracking-wider text-brand-muted">
+                <p className="text-xs font-light leading-relaxed tracking-wider text-brand-muted">
                   下向きに生えていた自まつ毛を根元から優しくリフトアップ。
                   不自然な急カーブを避け、すっと前に伸びるようなアングルに仕上げることで、まぶた全体もすっきりとした印象に。マスカラなしでもクリアで知的な眼差しを作ります。
                 </p>
@@ -310,21 +310,21 @@ export default function Home() {
                     <Sparkles size={16} strokeWidth={1.5} className="text-brand-accent shrink-0 mt-0.5" />
                     <div>
                       <h4 className="text-[11px] font-medium text-brand-text mb-1 tracking-wider">丁寧なカウンセリング</h4>
-                      <p className="text-[9px] font-light text-brand-muted leading-relaxed tracking-wide">骨格や毛流れを見極め、理想の「抜け感」をご提案します。</p>
+                      <p className="text-[10px] font-light text-brand-muted leading-relaxed tracking-wide">骨格や毛流れを見極め、理想の「抜け感」をご提案します。</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
                     <Shield size={16} strokeWidth={1.5} className="text-brand-accent shrink-0 mt-0.5" />
                     <div>
                       <h4 className="text-[11px] font-medium text-brand-text mb-1 tracking-wider">安心の衛生管理</h4>
-                      <p className="text-[9px] font-light text-brand-muted leading-relaxed tracking-wide">器具の紫外線消毒や使い捨て商材の使用を徹底しています。</p>
+                      <p className="text-[10px] font-light text-brand-muted leading-relaxed tracking-wide">器具の紫外線消毒や使い捨て商材の使用を徹底しています。</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
                     <Heart size={16} strokeWidth={1.5} className="text-brand-accent shrink-0 mt-0.5" />
                     <div>
                       <h4 className="text-[11px] font-medium text-brand-text mb-1 tracking-wider">厳選された低刺激商材</h4>
-                      <p className="text-[9px] font-light text-brand-muted leading-relaxed tracking-wide">国産低刺激グルーや美容成分配合のパーマ剤を使用しています。</p>
+                      <p className="text-[10px] font-light text-brand-muted leading-relaxed tracking-wide">国産低刺激グルーや美容成分配合のパーマ剤を使用しています。</p>
                     </div>
                   </div>
                 </div>
@@ -387,7 +387,7 @@ export default function Home() {
               <h2 className="font-serif text-2xl sm:text-3xl font-light tracking-[0.15em] text-brand-text">
                 @miamio_eyelash
               </h2>
-              <p className="mt-3 text-[10px] font-light tracking-wider text-brand-muted">
+              <p className="mt-3 text-[11px] font-light tracking-wider text-brand-muted">
                 最新デザインや空き状況を毎日更新しています
               </p>
             </FadeIn>
@@ -415,6 +415,34 @@ export default function Home() {
 
       {/* 8. FAQ Section */}
       <FAQSection />
+
+      {/* First Visit Banner */}
+      <section className="py-16 px-6 sm:py-20 sm:px-12 bg-white border-t border-brand-border/40">
+        <div className="mx-auto max-w-3xl">
+          <FadeIn direction="up">
+            <div className="bg-brand-bg border border-brand-border/40 p-8 sm:p-12 text-center">
+              <span className="text-[10px] tracking-[0.25em] text-brand-accent font-medium block mb-3">
+                FOR FIRST-TIME GUESTS
+              </span>
+              <h2 className="font-serif text-xl sm:text-2xl font-light tracking-[0.15em] text-brand-text mb-4">
+                初めての方も、安心してお越しください
+              </h2>
+              <p className="text-xs font-light leading-relaxed tracking-wider text-brand-muted max-w-lg mx-auto mb-8">
+                ご予約の方法から、ご来店・カウンセリング・施術・お帰りまでの流れ、
+                当日の注意事項までをわかりやすくまとめています。
+                マツエクやラッシュリフトが初めての方は、ぜひ一度ご覧ください。
+              </p>
+              <Link
+                href="/first-visit"
+                className="inline-flex items-center gap-2 border border-brand-accent px-8 py-3.5 text-[10px] font-light tracking-[0.2em] text-brand-accent hover:bg-brand-accent hover:text-white transition-colors"
+              >
+                初めての方へ（ご来店の流れ）
+                <ArrowRight size={12} strokeWidth={1.5} />
+              </Link>
+            </div>
+          </FadeIn>
+        </div>
+      </section>
 
       {/* 9. Access Section */}
       <section className="py-24 px-6 sm:py-32 sm:px-12 bg-white border-t border-brand-border/40">
@@ -464,7 +492,7 @@ export default function Home() {
               <div className="absolute inset-0 flex flex-col items-center justify-center p-4 sm:p-8 text-center pointer-events-none">
                 <div className="bg-white/85 backdrop-blur-md p-6 sm:p-8 border border-brand-border/50 max-w-sm mx-auto shadow-sm">
                   <span className="font-serif text-lg font-light tracking-widest text-brand-text block mb-3">miamio Salon Map</span>
-                  <p className="text-[11px] font-light leading-relaxed tracking-wider text-brand-muted mb-6">
+                  <p className="text-xs font-light leading-relaxed tracking-wider text-brand-muted mb-6">
                     駅前の喧騒から一本入った緩やかな坂道沿いにある、落ち着いた建物の3階にある一室です。
                   </p>
                   <a

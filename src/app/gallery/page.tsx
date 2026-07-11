@@ -1,8 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
+import { X } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 
 const CATEGORIES = [
@@ -84,10 +85,32 @@ const GALLERY_ITEMS = [
 
 export default function GalleryPage() {
   const [selectedCat, setSelectedCat] = useState("all");
+  const [lightboxItem, setLightboxItem] = useState<
+    (typeof GALLERY_ITEMS)[number] | null
+  >(null);
 
   const filteredItems = GALLERY_ITEMS.filter((item) =>
     selectedCat === "all" ? true : item.categories.includes(selectedCat)
   );
+
+  const countFor = (catId: string) =>
+    catId === "all"
+      ? GALLERY_ITEMS.length
+      : GALLERY_ITEMS.filter((item) => item.categories.includes(catId)).length;
+
+  // ライトボックス表示中: Escで閉じる & 背景スクロールをロック
+  useEffect(() => {
+    if (!lightboxItem) return;
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setLightboxItem(null);
+    };
+    window.addEventListener("keydown", onKeyDown);
+    document.body.style.overflow = "hidden";
+    return () => {
+      window.removeEventListener("keydown", onKeyDown);
+      document.body.style.overflow = "";
+    };
+  }, [lightboxItem]);
 
   return (
     <div className="py-16 px-6 sm:py-24 sm:px-12 max-w-6xl mx-auto">
@@ -100,7 +123,7 @@ export default function GalleryPage() {
           <h1 className="font-serif text-3xl sm:text-4xl font-light tracking-[0.15em] text-brand-text">
             施術事例ギャラリー
           </h1>
-          <p className="mt-3 text-[10px] font-light tracking-wider text-brand-muted max-w-md mx-auto">
+          <p className="mt-3 text-xs font-light tracking-wider text-brand-muted max-w-md mx-auto">
             ご自身の目の形や、理想の雰囲気に合わせて絞り込みいただけます。<br />カウンセリング時の画像提示にもご活用ください。
           </p>
         </FadeIn>
@@ -120,6 +143,9 @@ export default function GalleryPage() {
               }`}
             >
               {cat.name}
+              <span className="ml-1 text-[9px] text-brand-muted/70">
+                {countFor(cat.id)}
+              </span>
               {selectedCat === cat.id && (
                 <motion.span
                   layoutId="activeGalleryTab"
@@ -130,6 +156,9 @@ export default function GalleryPage() {
             </button>
           ))}
         </div>
+        <p className="mt-4 text-center text-[10px] font-light tracking-[0.2em] text-brand-muted">
+          {filteredItems.length} {filteredItems.length === 1 ? "DESIGN" : "DESIGNS"}
+        </p>
       </FadeIn>
 
       {/* Grid portfolio */}
@@ -149,7 +178,12 @@ export default function GalleryPage() {
               className="bg-white border border-brand-border/40 flex flex-col group overflow-hidden"
             >
               {/* Image box */}
-              <div className="relative aspect-[4/3] w-full overflow-hidden bg-neutral-100">
+              <button
+                type="button"
+                onClick={() => setLightboxItem(item)}
+                aria-label={`${item.title} を拡大表示`}
+                className="relative aspect-[4/3] w-full overflow-hidden bg-neutral-100 cursor-zoom-in text-left"
+              >
                 <Image
                   src={item.img}
                   alt={item.title}
@@ -161,7 +195,7 @@ export default function GalleryPage() {
                     {item.style}
                   </span>
                 </div>
-              </div>
+              </button>
 
               {/* Text box */}
               <div className="p-5 flex-1 flex flex-col justify-between">
@@ -169,7 +203,7 @@ export default function GalleryPage() {
                   <h3 className="font-serif text-sm font-light tracking-wider text-brand-text mb-2">
                     {item.title}
                   </h3>
-                  <p className="text-[10px] font-light leading-relaxed tracking-wider text-brand-muted">
+                  <p className="text-[11px] font-light leading-relaxed tracking-wider text-brand-muted">
                     {item.desc}
                   </p>
                 </div>
@@ -192,6 +226,80 @@ export default function GalleryPage() {
           ))}
         </AnimatePresence>
       </motion.div>
+
+      {/* Empty state */}
+      {filteredItems.length === 0 && (
+        <div className="py-20 text-center">
+          <p className="text-xs font-light tracking-wider text-brand-muted">
+            該当するデザインが見つかりませんでした。他のカテゴリをお試しください。
+          </p>
+        </div>
+      )}
+
+      {/* Lightbox */}
+      <AnimatePresence>
+        {lightboxItem && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.25, ease: "easeInOut" }}
+            onClick={() => setLightboxItem(null)}
+            className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm p-4 sm:p-8"
+            role="dialog"
+            aria-modal="true"
+            aria-label={lightboxItem.title}
+          >
+            <motion.div
+              initial={{ opacity: 0, scale: 0.96, y: 10 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              exit={{ opacity: 0, scale: 0.96, y: 10 }}
+              transition={{ duration: 0.25, ease: "easeOut" }}
+              onClick={(e) => e.stopPropagation()}
+              className="relative bg-white max-w-2xl w-full overflow-hidden shadow-xl"
+            >
+              <button
+                type="button"
+                onClick={() => setLightboxItem(null)}
+                aria-label="閉じる"
+                className="absolute top-3 right-3 z-10 p-2 bg-white/85 backdrop-blur-sm border border-brand-border/40 text-brand-text hover:text-brand-accent transition-colors"
+              >
+                <X size={16} strokeWidth={1.5} />
+              </button>
+
+              <div className="relative aspect-[4/3] w-full bg-neutral-100">
+                <Image
+                  src={lightboxItem.img}
+                  alt={lightboxItem.title}
+                  fill
+                  sizes="(max-width: 672px) 100vw, 672px"
+                  className="object-cover"
+                />
+              </div>
+
+              <div className="p-6 sm:p-8">
+                <span className="text-[9px] font-light tracking-[0.2em] text-brand-accent uppercase block mb-2">
+                  {lightboxItem.style}
+                </span>
+                <h3 className="font-serif text-lg font-light tracking-wider text-brand-text mb-3">
+                  {lightboxItem.title}
+                </h3>
+                <p className="text-xs font-light leading-relaxed tracking-wider text-brand-muted mb-6">
+                  {lightboxItem.desc}
+                </p>
+                <a
+                  href="https://beauty.hotpepper.jp/kr/slnH000631368/coupon/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block border border-brand-accent px-6 py-2.5 text-[10px] font-light tracking-[0.2em] text-brand-accent hover:bg-brand-accent hover:text-white transition-colors"
+                >
+                  このデザインを相談して予約する
+                </a>
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
 
       {/* Booking CTA */}
       <FadeIn direction="up" className="mt-20 text-center">

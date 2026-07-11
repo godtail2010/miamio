@@ -2,6 +2,8 @@ import FadeIn from "@/components/FadeIn";
 
 const MENU_CATEGORIES = [
   {
+    id: "lash-lift",
+    shortName: "まつげパーマ",
     categoryName: "Lash Lift / まつげパーマ",
     desc: "自まつ毛本来の長さを活かし、瞳に光を呼び込むナチュラルな仕上がり。",
     items: [
@@ -52,6 +54,8 @@ const MENU_CATEGORIES = [
     ],
   },
   {
+    id: "eyebrow",
+    shortName: "アイブロウ",
     categoryName: "Eyebrow / アイブロウ",
     desc: "骨格に合わせて美しい眉デザインを作り出し、お顔の第一印象を引き締めます。",
     items: [
@@ -124,6 +128,8 @@ const MENU_CATEGORIES = [
     ],
   },
   {
+    id: "extension",
+    shortName: "マツエク",
     categoryName: "Eyelash Extension / マツエク（極柔フラットラッシュ）",
     desc: "非常に柔らかく軽量なフラットラッシュを使用し、自まつ毛に優しく自然な密度感をプラス。",
     items: [
@@ -207,6 +213,8 @@ const MENU_CATEGORIES = [
     ],
   },
   {
+    id: "care",
+    shortName: "ケア・その他",
     categoryName: "Care & Others / ケア・その他メニュー",
     desc: "まつ毛の健康状態を第一に考え、持続力を最大化するオプションメニュー。",
     items: [
@@ -272,6 +280,9 @@ const MENU_CATEGORIES = [
 export const metadata = {
   title: "MENU | miamio",
   description: "miamioの施術メニューと料金表。パリジェンヌラッシュリフト、フラットラッシュ、まつげパーマ、高濃度ケラチントリートメントなどの料金と施術時間を紹介。",
+  alternates: {
+    canonical: "/menu",
+  },
 };
 
 export default function MenuPage() {
@@ -286,23 +297,45 @@ export default function MenuPage() {
           <h1 className="font-serif text-3xl sm:text-4xl font-light tracking-[0.15em] text-brand-text">
             メニュー・料金
           </h1>
-          <p className="mt-3 text-[10px] font-light tracking-wider text-brand-muted max-w-md mx-auto">
+          <p className="mt-3 text-xs font-light tracking-wider text-brand-muted max-w-md mx-auto">
             すべてのメニューに丁寧なカウンセリングが含まれます。<br />当日の状態に合わせた調整も可能です。
           </p>
         </FadeIn>
       </div>
 
+      {/* Category Anchor Navigation */}
+      <nav
+        aria-label="メニューカテゴリ"
+        className="sticky top-20 z-30 -mx-6 sm:mx-0 mb-16 bg-brand-bg/90 backdrop-blur-md border-y border-brand-border/40"
+      >
+        <div className="flex justify-start sm:justify-center gap-1 overflow-x-auto no-scrollbar px-4 py-3">
+          {MENU_CATEGORIES.map((category) => (
+            <a
+              key={category.id}
+              href={`#${category.id}`}
+              className="shrink-0 px-4 py-2 text-[11px] font-light tracking-[0.15em] text-brand-muted hover:text-brand-accent transition-colors whitespace-nowrap"
+            >
+              {category.shortName}
+            </a>
+          ))}
+        </div>
+      </nav>
+
       {/* Menu Categories */}
       <div className="space-y-24">
         {MENU_CATEGORIES.map((category) => (
-          <div key={category.categoryName} className="space-y-10">
+          <div
+            key={category.categoryName}
+            id={category.id}
+            className="space-y-10 scroll-mt-40"
+          >
             {/* Category Header */}
             <FadeIn direction="up">
               <div className="border-b border-brand-border/40 pb-4">
                 <h2 className="font-serif text-lg sm:text-xl font-light tracking-wider text-brand-text">
                   {category.categoryName}
                 </h2>
-                <p className="text-[10px] font-light tracking-wider text-brand-muted mt-1">
+                <p className="text-[11px] font-light tracking-wider text-brand-muted mt-1">
                   {category.desc}
                 </p>
               </div>
@@ -334,14 +367,14 @@ export default function MenuPage() {
                     </div>
 
                     {/* Desc */}
-                    <p className="text-[11px] font-light leading-relaxed tracking-wider text-brand-muted">
+                    <p className="text-xs font-light leading-relaxed tracking-wider text-brand-muted">
                       {item.desc}
                     </p>
 
                     {/* Features checklist */}
                     <ul className="space-y-2 pt-2 border-t border-brand-border/10">
                       {item.features.map((feat, i) => (
-                        <li key={i} className="flex items-start gap-2 text-[10px] font-light tracking-wider text-brand-text">
+                        <li key={i} className="flex items-start gap-2 text-[11px] font-light tracking-wider text-brand-text">
                           <span className="text-brand-accent mt-0.5">•</span>
                           <span>{feat}</span>
                         </li>
@@ -372,7 +405,7 @@ export default function MenuPage() {
         <h4 className="font-serif text-sm font-light tracking-wider text-brand-text mb-3">
           施術に関するご案内
         </h4>
-        <p className="text-[10px] font-light leading-relaxed tracking-wider text-brand-muted max-w-xl mx-auto space-y-1">
+        <p className="text-[11px] font-light leading-relaxed tracking-wider text-brand-muted max-w-xl mx-auto space-y-1">
           <span>・すべての表示料金は税込価格です。</span><br />
           <span>・当サロンは完全予約制の女性専用プライベートサロンです。</span><br />
           <span>・初めてお越しいただく際は、カウンセリングシートのご記入がございますので、予約時間の10分前を目安にご来店ください。</span>
