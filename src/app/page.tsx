@@ -45,15 +45,19 @@ export default function Home() {
             <span className="font-serif text-[10px] sm:text-xs tracking-[0.3em] uppercase text-white/95 mb-4 block">
               Private Eyelash Salon
             </span>
+            {/* 文節単位の inline-block で、どの画面幅でも中途半端な位置で改行させない */}
             <h1 className="font-serif text-3xl sm:text-5xl font-light tracking-[0.15em] leading-normal sm:leading-relaxed text-white">
-              自然体に、
-              <br className="sm:hidden" />
-              ほんの少しのニュアンスを。
+              <span className="inline-block">自然体に、</span>
+              <span className="inline-block">ほんの少しの</span>
+              <span className="inline-block">ニュアンスを。</span>
             </h1>
             <p className="mt-6 text-xs sm:text-sm font-light tracking-[0.15em] text-white/90 leading-loose max-w-lg mx-auto">
-              まるで自まつ毛がスッと伸びたかのような、
-              <br />
-              あなたの日常に静かに溶け込むアイデザイン。
+              <span className="inline-block">まるで自まつ毛が</span>
+              <span className="inline-block">スッと伸びたかのような、</span>
+              <br className="hidden sm:block" />
+              <span className="inline-block">あなたの日常に</span>
+              <span className="inline-block">静かに溶け込む</span>
+              <span className="inline-block">アイデザイン。</span>
             </p>
             <div className="mt-10">
               <a
